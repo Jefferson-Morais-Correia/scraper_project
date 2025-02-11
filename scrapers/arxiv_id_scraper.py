@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 class ArxivIdScraper(BaseScraper):
     BASE_URL = "https://arxiv.org"
 
-    def get_ids(self, skip=0, show=2000):
+    def scrape(self, skip=0, show=2000):
         url = f"{self.BASE_URL}/list/cs.AI/recent?skip={skip}&show={show}"
         response = self.session.get(url, verify=False)
         if response.status_code != 200:

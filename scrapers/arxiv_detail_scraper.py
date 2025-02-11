@@ -9,7 +9,7 @@ class ArxivDetailScraper(BaseScraper):
         super().__init__()
         self.paper_id = paper_id
 
-    def get_details(self):
+    def scrape(self):
         paper_url = f"{self.BASE_URL}/html/{self.paper_id}"
         response = self.session.get(paper_url, verify=False)
         if response.status_code != 200:
