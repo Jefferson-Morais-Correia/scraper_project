@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from ../utils.helpers import save_to_csv
+from scraper_project.utils.helpers import save_to_csv
 
 
 def test_save_to_csv():

@@ -1,17 +1,16 @@
-[project]
-name = "scraper_project"
+[tool.poetry]
+name = "scraper-project"
 version = "0.1.0"
 description = "Projeto para scraping de paginas do arxiv"
 authors = [
-    { name = "Andre-Carpinteiro-Amaral", email = "andre.carpinteiro.amaral@gmail.com" },
-    { name = "Jefferson-Morais-Correia", email = "jeffersondemoraiscorreia@gmail.com" }
+    "Andre-Carpinteiro-Amaral <andre.carpinteiro.amaral@gmail.com>",
+    "Jefferson-Morais-Correia <jeffersondemoraiscorreia@gmail.com>"
 ]
-
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.9"
+python = "^3.9"
 requests = "^2.31.0"
 beautifulsoup4 = "^4.12.2"
 pandas = "^1.5.3"
@@ -21,6 +20,7 @@ pytest = "^7.4.2"
 ruff = "^0.0.280"
 pre-commit = "^3.4.0"
 bump2version = "^1.0.1"
+
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
