@@ -22,7 +22,7 @@ def test_get_ids(id_scraper):
     """
     Testa se o método get_ids retorna uma lista com IDs.
     """
-    ids = id_scraper.get_ids(skip=0, show=20)
+    ids = id_scraper.scrape(skip=0, show=20)
     assert isinstance(ids, list), "O retorno deve ser uma lista."
     assert len(ids) > 0, "A lista deve conter IDs."
     assert all(isinstance(i, str) for i in ids), "Todos os IDs devem ser strings."
