@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "scraper-project"
-version = "0.1.1"
+version = "0.1.0"
 description = "Projeto para scraping de paginas do arxiv"
 authors = [
     "Andre-Carpinteiro-Amaral <andre.carpinteiro.amaral@gmail.com>",

@@ -2,6 +2,9 @@
 
 Este é um projeto para scraping de artigos da página do arXiv.
 
+
+**Versão atual:** 0.1.0
+
 ## Pré-requisitos
 
 - Python 3.9+
