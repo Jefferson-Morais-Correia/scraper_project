@@ -4,7 +4,7 @@ from scraper_project.scrapers.arxiv_detail_scraper import ArxivDetailScraper
 
 @pytest.fixture
 def detail_scraper():
-    return ArxivDetailScraper("2301.00001")  # Exemplo de ID de artigo
+    return ArxivDetailScraper("2502.03369")  # Exemplo de ID de artigo
 
 
 def test_get_details(detail_scraper):
