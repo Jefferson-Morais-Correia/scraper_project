@@ -1,0 +1,5227 @@
+Title,Abstract,References
+Unbiased Evaluation of Large Language Models from a Causal Perspective,"Abstract
+Benchmark contamination has become a significant concern in the LLM evaluation community. Previous Agents-as-an-Evaluator address this issue by involving agents in the generation of questions. Despite their success, the biases in Agents-as-an-Evaluator methods remain largely unexplored.
+In this paper, we present a theoretical formulation of evaluation bias, providing valuable insights into designing unbiased evaluation protocols. Furthermore, we identify two type of bias in Agents-as-an-Evaluator through carefully designed probing tasks on a minimal Agents-as-an-Evaluator setup. To address these issues, we propose the Unbiased Evaluator, an evaluation protocol that delivers a more comprehensive, unbiased, and interpretable assessment of LLMs.
+Extensive experiments reveal significant room for improvement in current LLMs. Additionally, we demonstrate that the Unbiased Evaluator not only offers strong evidence of benchmark contamination but also provides interpretable evaluation results.","References
+
+
+Achiam et al. (2023)
+
+Achiam, J., Adler, S., Agarwal, S., Ahmad, L., Akkaya, I., Aleman, F. L., Almeida, D., Altenschmidt, J., Altman, S., Anadkat, S., et al.
+
+
+Gpt-4 technical report.
+
+
+arXiv preprint arXiv:2303.08774, 2023.
+
+
+
+
+Ahn et al. (2022)
+
+Ahn, J., Lee, H., Kim, J., and Oh, A.
+
+
+Why knowledge distillation amplifies gender bias and how to mitigate from the perspective of distilbert.
+
+
+In Proceedings of the 4th Workshop on Gender Bias in Natural Language Processing (GeBNLP), pp.  266–272, 2022.
+
+
+
+
+AI et al. (2024)
+
+AI, ., :, Young, A., Chen, B., Li, C., Huang, C., Zhang, G., Zhang, G., Li, H., Zhu, J., Chen, J., Chang, J., Yu, K., Liu, P., Liu, Q., Yue, S., Yang, S., Yang, S., Yu, T., Xie, W., Huang, W., Hu, X., Ren, X., Niu, X., Nie, P., Xu, Y., Liu, Y., Wang, Y., Cai, Y., Gu, Z., Liu, Z., and Dai, Z.
+
+
+Yi: Open foundation models by 01.ai, 2024.
+
+
+
+
+AI-MO (2023)
+
+AI-MO.
+
+
+amc 2023.
+
+
+https://huggingface.co/datasets/AI-MO/aimo-validation-amc, 2023.
+
+
+
+
+AI-MO (2024)
+
+AI-MO.
+
+
+Aime 2024.
+
+
+https://huggingface.co/datasets/AI-MO/aimo-validation-aime, 2024.
+
+
+
+
+Anthropic (2024)
+
+Anthropic.
+
+
+The claude 3 model family: Opus, sonnet, haiku.
+
+
+2024.
+
+
+URL https://api.semanticscholar.org/CorpusID:268232499.
+
+
+
+
+Bai et al. (2023)
+
+Bai, J., Bai, S., Chu, Y., Cui, Z., Dang, K., Deng, X., Fan, Y., Ge, W., Han, Y., Huang, F., et al.
+
+
+Qwen technical report.
+
+
+arXiv preprint arXiv:2309.16609, 2023.
+
+
+
+
+Bender et al. (2021)
+
+Bender, E. M., Gebru, T., McMillan-Major, A., and Shmitchell, S.
+
+
+On the dangers of stochastic parrots: Can language models be too big?
+
+
+In Proceedings of the 2021 ACM conference on fairness, accountability, and transparency, pp.  610–623, 2021.
+
+
+
+
+Blodgett et al. (2020)
+
+Blodgett, S. L., Barocas, S., Daumé III, H., and Wallach, H.
+
+
+Language (technology) is power: A critical survey of” bias” in nlp.
+
+
+arXiv preprint arXiv:2005.14050, 2020.
+
+
+
+
+(10)
+
+Chen, G. H., Chen, S., Liu, Z., Jiang, F., and Wang, B.
+
+
+Humans or llms as the judge? a study on judgement biases, 2024.
+
+
+URL https://arxiv. org/abs/2402, 10669.
+
+
+
+
+Clark et al. (2018)
+
+Clark, P., Cowhey, I., Etzioni, O., Khot, T., Sabharwal, A., Schoenick, C., and Tafjord, O.
+
+
+Think you have solved question answering? try arc, the ai2 reasoning challenge.
+
+
+arXiv preprint arXiv:1803.05457, 2018.
+
+
+
+
+Cobbe et al. (2021)
+
+Cobbe, K., Kosaraju, V., Bavarian, M., Chen, M., Jun, H., Kaiser, L., Plappert, M., Tworek, J., Hilton, J., Nakano, R., et al.
+
+
+Training verifiers to solve math word problems.
+
+
+arXiv preprint arXiv:2110.14168, 2021.
+
+
+
+
+Contributors (2023)
+
+Contributors, O.
+
+
+Opencompass: A universal evaluation platform for foundation models.
+
+
+https://github.com/open-compass/opencompass, 2023.
+
+
+
+
+Dai et al. (2024)
+
+Dai, S., Xu, C., Xu, S., Pang, L., Dong, Z., and Xu, J.
+
+
+Unifying bias and unfairness in information retrieval: A survey of challenges and opportunities with large language models.
+
+
+arXiv preprint arXiv:2404.11457, 2024.
+
+
+
+
+Fan et al. (2023)
+
+Fan, L., Hua, W., Li, L., Ling, H., and Zhang, Y.
+
+
+Nphardeval: Dynamic benchmark on reasoning ability of large language models via complexity classes.
+
+
+arXiv preprint arXiv:2312.14890, 2023.
+
+
+
+
+Ferrara (2023)
+
+Ferrara, E.
+
+
+Should chatgpt be biased? challenges and risks of bias in large language models.
+
+
+arXiv preprint arXiv:2304.03738, 2023.
+
+
+
+
+Gallegos et al. (2024)
+
+Gallegos, I. O., Rossi, R. A., Barrow, J., Tanjim, M. M., Kim, S., Dernoncourt, F., Yu, T., Zhang, R., and Ahmed, N. K.
+
+
+Bias and fairness in large language models: A survey.
+
+
+Computational Linguistics, pp.  1–79, 2024.
+
+
+
+
+He et al. (2024a)
+
+He, C., Luo, R., Bai, Y., Hu, S., Thai, Z. L., Shen, J., Hu, J., Han, X., Huang, Y., Zhang, Y., et al.
+
+
+Olympiadbench: A challenging benchmark for promoting agi with olympiad-level bilingual multimodal scientific problems.
+
+
+arXiv preprint arXiv:2402.14008, 2024a.
+
+
+
+
+He et al. (2024b)
+
+He, Y., Li, S., Liu, J., Tan, Y., Wang, W., Huang, H., Bu, X., Guo, H., Hu, C., Zheng, B., et al.
+
+
+Chinese simpleqa: A chinese factuality evaluation for large language models.
+
+
+arXiv preprint arXiv:2411.07140, 2024b.
+
+
+
+
+Hendrycks et al. (2021)
+
+Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., and Steinhardt, J.
+
+
+Measuring massive multitask language understanding.
+
+
+Proceedings of the International Conference on Learning Representations (ICLR), 2021.
+
+
+
+
+Jiang et al. (2023)
+
+Jiang, A. Q., Sablayrolles, A., Mensch, A., Bamford, C., Chaplot, D. S., Casas, D. d. l., Bressand, F., Lengyel, G., Lample, G., Saulnier, L., et al.
+
+
+Mistral 7b.
+
+
+arXiv preprint arXiv:2310.06825, 2023.
+
+
+
+
+Jiang et al. (2024)
+
+Jiang, M., Liu, K., Zhong, M., Schaeffer, R., Ouyang, S., Han, J., and Koyejo, S.
+
+
+Does data contamination make a difference? insights from intentionally contaminating pre-training data for language models.
+
+
+In ICLR 2024 Workshop on Navigating and Addressing Data Problems for Foundation Models, 2024.
+
+
+
+
+Kocoń et al. (2023)
+
+Kocoń, J., Cichecki, I., Kaszyca, O., Kochanek, M., Szydło, D., Baran, J., Bielaniewicz, J., Gruza, M., Janz, A., Kanclerz, K., et al.
+
+
+Chatgpt: Jack of all trades, master of none.
+
+
+Information Fusion, 99:101861, 2023.
+
+
+
+
+Lee et al. (2021)
+
+Lee, K., Ippolito, D., Nystrom, A., Zhang, C., Eck, D., Callison-Burch, C., and Carlini, N.
+
+
+Deduplicating training data makes language models better.
+
+
+arXiv preprint arXiv:2107.06499, 2021.
+
+
+
+
+Lei et al. (2023)
+
+Lei, F., Liu, Q., Huang, Y., He, S., Zhao, J., and Liu, K.
+
+
+S3eval: A synthetic, scalable, systematic evaluation suite for large language models.
+
+
+arXiv preprint arXiv:2310.15147, 2023.
+
+
+
+
+Li (2023)
+
+Li, Y.
+
+
+An open source data contamination report for llama series models.
+
+
+arXiv preprint arXiv:2310.17589, 2023.
+
+
+
+
+Liang et al. (2022)
+
+Liang, P., Bommasani, R., Lee, T., Tsipras, D., Soylu, D., Yasunaga, M., Zhang, Y., Narayanan, D., Wu, Y., Kumar, A., et al.
+
+
+Holistic evaluation of language models.
+
+
+arXiv preprint arXiv:2211.09110, 2022.
+
+
+
+
+Lightman et al. (2023)
+
+Lightman, H., Kosaraju, V., Burda, Y., Edwards, H., Baker, B., Lee, T., Leike, J., Schulman, J., Sutskever, I., and Cobbe, K.
+
+
+Let’s verify step by step.
+
+
+arXiv preprint arXiv:2305.20050, 2023.
+
+
+
+
+(29)
+
+Liu, J., Huang, Z., Dai, W., Cheng, C., Wu, J., Sha, J., Liu, Q., Wang, S., and Chen, E.
+
+
+Cogmath: Evaluating llms’ authentic mathematical ability from a cognitive perspective.
+
+
+
+
+Lovin (2023)
+
+Lovin, B.
+
+
+Gpt-4 performs significantly worse on coding problems not in its training data, 2023.
+
+
+
+
+McIntosh et al. (2024)
+
+McIntosh, T. R., Susnjak, T., Arachchilage, N., Liu, T., Watters, P., and Halgamuge, M. N.
+
+
+Inadequacies of large language model benchmarks in the era of generative artificial intelligence.
+
+
+arXiv preprint arXiv:2402.09880, 2024.
+
+
+
+
+Ni et al. (2024)
+
+Ni, S., Kong, X., Li, C., Hu, X., Xu, R., Zhu, J., and Yang, M.
+
+
+Training on the benchmark is not all you need.
+
+
+arXiv preprint arXiv:2409.01790, 2024.
+
+
+
+
+OpenAI (2024)
+
+OpenAI.
+
+
+Chatgpt, 2024.
+
+
+URL https://openai.com/index/hello-gpt-4o/.
+
+
+
+
+Riddell et al. (2024)
+
+Riddell, M., Ni, A., and Cohan, A.
+
+
+Quantifying contamination in evaluating code generation capabilities of language models.
+
+
+arXiv preprint arXiv:2403.04811, 2024.
+
+
+
+
+Sainz et al. (2023)
+
+Sainz, O., Campos, J. A., García-Ferrero, I., Etxaniz, J., de Lacalle, O. L., and Agirre, E.
+
+
+Nlp evaluation in trouble: On the need to measure llm data contamination for each benchmark.
+
+
+arXiv preprint arXiv:2310.18018, 2023.
+
+
+
+
+Srivastava et al. (2022)
+
+Srivastava, A., Rastogi, A., Rao, A., Shoeb, A. A. M., Abid, A., Fisch, A., Brown, A. R., Santoro, A., Gupta, A., Garriga-Alonso, A., et al.
+
+
+Beyond the imitation game: Quantifying and extrapolating the capabilities of language models.
+
+
+arXiv preprint arXiv:2206.04615, 2022.
+
+
+
+
+Team et al. (2023)
+
+Team, G., Anil, R., Borgeaud, S., Alayrac, J.-B., Yu, J., Soricut, R., Schalkwyk, J., Dai, A. M., Hauth, A., Millican, K., et al.
+
+
+Gemini: a family of highly capable multimodal models.
+
+
+arXiv preprint arXiv:2312.11805, 2023.
+
+
+
+
+Touvron et al. (2023)
+
+Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y., Bashlykov, N., Batra, S., Bhargava, P., Bhosale, S., et al.
+
+
+Llama 2: Open foundation and fine-tuned chat models.
+
+
+arXiv preprint arXiv:2307.09288, 2023.
+
+
+
+
+Wang (2018)
+
+Wang, A.
+
+
+Glue: A multi-task benchmark and analysis platform for natural language understanding.
+
+
+arXiv preprint arXiv:1804.07461, 2018.
+
+
+
+
+Wang et al. (2019)
+
+Wang, A., Pruksachatkun, Y., Nangia, N., Singh, A., Michael, J., Hill, F., Levy, O., and Bowman, S.
+
+
+Superglue: A stickier benchmark for general-purpose language understanding systems.
+
+
+Advances in neural information processing systems, 32, 2019.
+
+
+
+
+Wei et al. (2024)
+
+Wei, J., Karina, N., Chung, H. W., Jiao, Y. J., Papay, S., Glaese, A., Schulman, J., and Fedus, W.
+
+
+Measuring short-form factuality in large language models.
+
+
+arXiv preprint arXiv:2411.04368, 2024.
+
+
+
+
+White et al. (2024)
+
+White, C., Dooley, S., Roberts, M., Pal, A., Feuer, B., Jain, S., Shwartz-Ziv, R., Jain, N., Saifullah, K., Naidu, S., et al.
+
+
+Livebench: A challenging, contamination-free llm benchmark.
+
+
+arXiv preprint arXiv:2406.19314, 2024.
+
+
+
+
+Ye et al. (2024)
+
+Ye, J., Wang, Y., Huang, Y., Chen, D., Zhang, Q., Moniz, N., Gao, T., Geyer, W., Huang, C., Chen, P.-Y., et al.
+
+
+Justice or prejudice? quantifying biases in llm-as-a-judge.
+
+
+arXiv preprint arXiv:2410.02736, 2024.
+
+
+
+
+Zheng et al. (2023)
+
+Zheng, L., Chiang, W.-L., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., Lin, Z., Li, Z., Li, D., Xing, E., et al.
+
+
+Judging llm-as-a-judge with mt-bench and chatbot arena.
+
+
+Advances in Neural Information Processing Systems, 36:46595–46623, 2023.
+
+
+
+
+Zhou et al. (2023)
+
+Zhou, K., Zhu, Y., Chen, Z., Chen, W., Zhao, W. X., Chen, X., Lin, Y., Wen, J.-R., and Han, J.
+
+
+Don’t make your llm an evaluation benchmark cheater.
+
+
+arXiv preprint arXiv:2311.01964, 2023.
+
+
+
+
+Zhu et al. (2023)
+
+Zhu, K., Chen, J., Wang, J., Gong, N. Z., Yang, D., and Xie, X.
+
+
+Dyval: Graph-informed dynamic evaluation of large language models.
+
+
+arXiv preprint arXiv:2309.17167, 2023.
+
+
+
+
+Zhu et al. (2024)
+
+Zhu, K., Wang, J., Zhao, Q., Xu, R., and Xie, X.
+
+
+Dynamic evaluation of large language models by meta probing agents.
+
+
+In Forty-first International Conference on Machine Learning, 2024."
+On the Impact of the Utility in Semivalue-based Data Valuation,"Abstract
+Semivalue-based data valuation in machine learning (ML) quantifies the contribution of individual data points to a downstream ML task by leveraging principles from cooperative game theory and the notion of utility. While this framework has been used in practice for assessing data quality, our experiments reveal inconsistent valuation outcomes across different utilities, albeit all related to ML performance. Beyond raising concerns about the reliability of data valuation, this inconsistency is challenging to interpret, as it stems from the complex interaction of the utility with data points and semivalue weights, which has barely been studied in prior work. In this paper, we take a first step toward clarifying the utility impact on semivalue-based data valuation. Specifically, we provide geometric interpretations of this impact for a broad family of classification utilities, which includes the accuracy and the arithmetic mean. We introduce the notion of spatial signatures: given a semivalue, data points can be embedded into a two-dimensional space, and utility functions map to the dual of this space.
+This geometric perspective separates the influence of the dataset and semivalue from that of the utility, providing a theoretical explanation for the experimentally observed sensitivity of valuation outcomes to the utility choice.","References
+
+
+Banzhaf (1965)
+
+Banzhaf, J.
+
+
+Weighted voting doesn’t work: A mathematical analysis.
+
+
+Rutgers Law Review, 19(2):317–343, 1965.
+
+
+
+
+Bloch & Friedrich (2021)
+
+Bloch, L. and Friedrich, C.
+
+
+Data analysis with shapley values for automatic subject selection in alzheimer’s disease data sets using interpretable machine learning.
+
+
+Alzheimer’s Research & Therapy, 13, 09 2021.
+
+
+doi: 10.1186/s13195-021-00879-4.
+
+
+
+
+Choi et al. (2009)
+
+Choi, S., Cha, S.-H., and Tappert, C.
+
+
+A survey of binary similarity and distance measures.
+
+
+J. Syst. Cybern. Inf., 8, 11 2009.
+
+
+
+
+Dubey et al. (1981)
+
+Dubey, P., Neyman, A., and Weber, R. J.
+
+
+Value theory without efficiency.
+
+
+Mathematics of Operations Research, 6(1):122–128, 1981.
+
+
+ISSN 0364765X, 15265471.
+
+
+URL http://www.jstor.org/stable/3689271.
+
+
+
+
+Garrido-Lucero et al. (2024)
+
+Garrido-Lucero, F., Heymann, B., Vono, M., Loiseau, P., and Perchet, V.
+
+
+Du-shapley: A shapley value proxy for efficient dataset valuation, 2024.
+
+
+URL https://arxiv.org/abs/2306.02071.
+
+
+
+
+Ghorbani & Zou (2019)
+
+Ghorbani, A. and Zou, J.
+
+
+Data shapley: Equitable valuation of data for machine learning, 2019.
+
+
+URL https://arxiv.org/abs/1904.02868.
+
+
+
+
+Ghorbani et al. (2020)
+
+Ghorbani, A., Kim, M. P., and Zou, J.
+
+
+A distributional framework for data valuation, 2020.
+
+
+URL https://arxiv.org/abs/2002.12334.
+
+
+
+
+Jia et al. (2020)
+
+Jia, R., Dao, D., Wang, B., Hubis, F. A., Gurel, N. M., Li, B., Zhang, C., Spanos, C. J., and Song, D.
+
+
+Efficient task-specific data valuation for nearest neighbor algorithms, 2020.
+
+
+URL https://arxiv.org/abs/1908.08619.
+
+
+
+
+Jia et al. (2023)
+
+Jia, R., Dao, D., Wang, B., Hubis, F. A., Hynes, N., Gurel, N. M., Li, B., Zhang, C., Song, D., and Spanos, C.
+
+
+Towards efficient data valuation based on the shapley value, 2023.
+
+
+URL https://arxiv.org/abs/1902.10275.
+
+
+
+
+Jiang et al. (2023)
+
+Jiang, K. F., Liang, W., Zou, J., and Kwon, Y.
+
+
+Opendataval: a unified benchmark for data valuation, 2023.
+
+
+URL https://arxiv.org/abs/2306.10577.
+
+
+
+
+Kendall (1938)
+
+Kendall, M. G.
+
+
+A new measure of rank correlation.
+
+
+Biometrika, 30(1/2):81–93, 1938.
+
+
+ISSN 00063444.
+
+
+URL http://www.jstor.org/stable/2332226.
+
+
+
+
+Koh & Liang (2020)
+
+Koh, P. W. and Liang, P.
+
+
+Understanding black-box predictions via influence functions, 2020.
+
+
+URL https://arxiv.org/abs/1703.04730.
+
+
+
+
+Koyejo et al. (2014)
+
+Koyejo, O. O., Natarajan, N., Ravikumar, P. K., and Dhillon, I. S.
+
+
+Consistent binary classification with generalized performance metrics.
+
+
+In Ghahramani, Z., Welling, M., Cortes, C., Lawrence, N., and Weinberger, K. (eds.), Advances in Neural Information Processing Systems, volume 27. Curran Associates, Inc., 2014.
+
+
+URL https://proceedings.neurips.cc/paper_files/paper/2014/file/30c8e1ca872524fbf7ea5c519ca397ee-Paper.pdf.
+
+
+
+
+Kwon & Zou (2022)
+
+Kwon, Y. and Zou, J.
+
+
+Beta shapley: a unified and noise-reduced data valuation framework for machine learning, 2022.
+
+
+URL https://arxiv.org/abs/2110.14049.
+
+
+
+
+Kwon et al. (2021)
+
+Kwon, Y., A. Rivas, M., and Zou, J.
+
+
+Efficient computation and analysis of distributional shapley values.
+
+
+In Banerjee, A. and Fukumizu, K. (eds.), Proceedings of The 24th International Conference on Artificial Intelligence and Statistics, volume 130 of Proceedings of Machine Learning Research, pp.  793–801. PMLR, 13–15 Apr 2021.
+
+
+URL https://proceedings.mlr.press/v130/kwon21a.html.
+
+
+
+
+Northcutt et al. (2021)
+
+Northcutt, C. G., Athalye, A., and Mueller, J.
+
+
+Pervasive label errors in test sets destabilize machine learning benchmarks, 2021.
+
+
+URL https://arxiv.org/abs/2103.14749.
+
+
+
+
+Pandl et al. (2021)
+
+Pandl, K. D., Feiland, F., Thiebes, S., and Sunyaev, A.
+
+
+Trustworthy machine learning for health care: scalable data valuation with the shapley value.
+
+
+In Proceedings of the Conference on Health, Inference, and Learning, CHIL ’21, pp.  47–57, New York, NY, USA, 2021. Association for Computing Machinery.
+
+
+ISBN 9781450383592.
+
+
+doi: 10.1145/3450439.3451861.
+
+
+URL https://doi.org/10.1145/3450439.3451861.
+
+
+
+
+Pozzolo et al. (2015)
+
+Pozzolo, A. D., Caelen, O., Johnson, R. A., and Bontempi, G.
+
+
+Calibrating probability with undersampling for unbalanced classification.
+
+
+In 2015 IEEE Symposium Series on Computational Intelligence, pp.  159–166, 2015.
+
+
+doi: 10.1109/SSCI.2015.33.
+
+
+
+
+Shapley (1953)
+
+Shapley, L. S.
+
+
+A value for n-person games.
+
+
+In Kuhn, H. W. and Tucker, A. W. (eds.), Contributions to the Theory of Games II, pp.  307–317. Princeton University Press, Princeton, 1953.
+
+
+
+
+Sim et al. (2022)
+
+Sim, R. H. L., Xu, X., and Low, B. K. H.
+
+
+Data valuation in machine learning: ”ingredients”, strategies, and open challenges.
+
+
+In Raedt, L. D. (ed.), Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, IJCAI-22, pp.  5607–5614. International Joint Conferences on Artificial Intelligence Organization, 7 2022.
+
+
+doi: 10.24963/ijcai.2022/782.
+
+
+URL https://doi.org/10.24963/ijcai.2022/782.
+
+
+Survey Track.
+
+
+
+
+Spearman (1904)
+
+Spearman, C.
+
+
+The proof and measurement of association between two things.
+
+
+American Journal of Psychology, 15:88–103, 1904.
+
+
+
+
+Tang et al. (2021)
+
+Tang, S., Ghorbani, A., Yamashita, R., Rehman, S., Dunnmon, J. A., Zou, J., and Rubin, D. L.
+
+
+Data valuation for medical imaging using shapley value and application to a large-scale chest x-ray dataset.
+
+
+Scientific Reports, 11(1), April 2021.
+
+
+ISSN 2045-2322.
+
+
+doi: 10.1038/s41598-021-87762-2.
+
+
+URL http://dx.doi.org/10.1038/s41598-021-87762-2.
+
+
+
+
+Vats & Knudson (2020)
+
+Vats, D. and Knudson, C.
+
+
+Revisiting the gelman-rubin diagnostic, 2020.
+
+
+URL https://arxiv.org/abs/1812.09384.
+
+
+
+
+Wang & Jia (2023)
+
+Wang, J. T. and Jia, R.
+
+
+Data banzhaf: A robust data valuation framework for machine learning, 2023.
+
+
+URL https://arxiv.org/abs/2205.15466.
+
+
+
+
+Wang et al. (2024)
+
+Wang, J. T., Yang, T., Zou, J., Kwon, Y., and Jia, R.
+
+
+Rethinking data shapley for data selection tasks: Misleads and merits, 2024.
+
+
+URL https://arxiv.org/abs/2405.03875.
+
+
+
+
+Yan & Procaccia (2021)
+
+Yan, T. and Procaccia, A. D.
+
+
+If you like shapley then you’ll love the core.
+
+
+In AAAI Conference on Artificial Intelligence, 2021.
+
+
+URL https://api.semanticscholar.org/CorpusID:211108182.
+
+
+
+
+Zheng et al. (2024)
+
+Zheng, K., Chua, H.-R., Herschel, M., Jagadish, H. V., Ooi, B. C., and Yip, J. W. L.
+
+
+Exploiting negative samples: a catalyst for cohort discovery in healthcare analytics.
+
+
+In Proceedings of the 41st International Conference on Machine Learning, ICML’24. JMLR.org, 2024."
+"Can We Trust AI Benchmarks?
+An Interdisciplinary Review of Current Issues in AI Evaluation","Abstract.
+Quantitative Artificial Intelligence (AI) Benchmarks have emerged as fundamental tools for evaluating the performance, capability, and safety of AI models and systems. Currently, they shape the direction of AI development and are playing an increasingly prominent role in regulatory frameworks. As their influence grows, however, so too does concerns about how and with what effects they evaluate highly sensitive topics such as capabilities, including high-impact capabilities, safety and systemic risks. This paper presents an interdisciplinary meta-review of about 100 studies that discuss shortcomings in quantitative benchmarking practices, published in the last 10 years. It brings together many fine-grained issues in the design and application of benchmarks (such as biases in dataset creation, inadequate documentation, data contamination, and failures to distinguish signal from noise) with broader sociotechnical issues (such as an over-focus on evaluating text-based AI models according to one-time testing logic that fails to account for how AI models are increasingly multimodal and interact with humans and other technical systems). Our review also highlights a series of systemic flaws in current benchmarking practices, such as misaligned incentives, construct validity issues, unknown unknowns, and problems with the gaming of benchmark results. Furthermore, it underscores how benchmark practices are fundamentally shaped by cultural, commercial and competitive dynamics that often prioritise state-of-the-art performance at the expense of broader societal concerns. By providing an overview of risks associated with existing benchmarking procedures, we problematise disproportionate trust placed in benchmarks and contribute to ongoing efforts to improve the accountability and relevance of quantitative AI benchmarks within the complexities of real-world scenarios.","REFERENCES
+
+
+(1)
+
+
+
+
+Ahmed et al. (2023)
+
+Nur Ahmed, Muntasir Wahed, and Neil C. Thompson. 2023.
+
+
+The growing influence of industry in AI research.
+
+
+Science 379, 6635 (March 2023), 884–886.
+
+
+
+https://doi.org/10.1126/science.ade2420
+
+
+
+Ahmed et al. (2024)
+
+Shazeda Ahmed, Klaudia Jaźwińska, Archana Ahlawat, Amy Winecoff, and Mona Wang. 2024.
+
+
+Field-building and the epistemic culture of AI safety.
+
+
+First Monday (April 2024).
+
+
+
+https://doi.org/10.5210/fm.v29i4.13626
+
+
+
+Alzahrani et al. (2024)
+
+Norah Alzahrani, Hisham Abdullah Alyahya, Yazeed Alnumay, Sultan Alrashed, Shaykhah Alsubaie, Yusef Almushaykeh, Faisal Mirza, Nouf Alotaibi, Nora Altwairesh, Areeb Alowisheq, M. Saiful Bari, and Haidar Khan. 2024.
+
+
+When Benchmarks are Targets: Revealing the Sensitivity of Large Language Model Leaderboards.
+
+
+
+
+
+http://arxiv.org/abs/2402.01781
+
+
+
+Aniba et al. (2010)
+
+M. R. Aniba, O. Poch, and J. D. Thompson. 2010.
+
+
+Issues in bioinformatics benchmarking: the case study of multiple sequence alignment.
+
+
+Nucleic Acids Research 38, 21 (2010), 7353–7363.
+
+
+
+https://doi.org/10.1093/nar/gkq625
+
+
+
+Aroyo and Welty (2015)
+
+Lora Aroyo and Chris Welty. 2015.
+
+
+Truth Is a Lie: Crowd Truth and the Seven Myths of Human Annotation.
+
+
+AI Magazine 36, 1 (March 2015), 15–24.
+
+
+
+https://doi.org/10.1609/aimag.v36i1.2564
+
+
+
+Arzt and Hanbury (2024)
+
+Varvara Arzt and Allan Hanbury. 2024.
+
+
+Beyond the Numbers: Transparency in Relation Extraction Benchmark Creation and Leaderboards.
+
+
+
+
+
+http://arxiv.org/abs/2411.05224
+
+
+
+Bao et al. (2022)
+
+Michelle Bao, Angela Zhou, Samantha Zottola, Brian Brubach, Sarah Desmarais, Aaron Horowitz, Kristian Lum, and Suresh Venkatasubramanian. 2022.
+
+
+It’s COMPASlicated: The Messy Relationship between RAI Datasets and Algorithmic Fairness Benchmarks.
+
+
+
+
+
+http://arxiv.org/abs/2106.05498
+
+
+
+Bartz-Beielstein et al. (2020)
+
+Thomas Bartz-Beielstein, Carola Doerr, Daan van den Berg, Jakob Bossek, Sowmya Chandrasekaran, Tome Eftimov, Andreas Fischbach, Pascal Kerschke, William La Cava, Manuel Lopez-Ibanez, Katherine M. Malan, Jason H. Moore, Boris Naujoks, Patryk Orzechowski, Vanessa Volz, Markus Wagner, and Thomas Weise. 2020.
+
+
+Benchmarking in Optimization: Best Practice and Open Issues.
+
+
+
+
+
+http://arxiv.org/abs/2007.03488
+
+
+
+Besen (2024)
+
+Sandi Besen. 2024.
+
+
+The Death of the Static AI Benchmark.
+
+
+
+
+
+https://towardsdatascience.com/the-death-of-the-static-ai-benchmark-88b5ff437086
+
+
+
+Biderman et al. (2024)
+
+Stella Biderman, Hailey Schoelkopf, Lintang Sutawika, Leo Gao, Jonathan Tow, Baber Abbasi, Alham Fikri Aji, Pawan Sasanka Ammanamanchi, Sidney Black, Jordan Clive, Anthony DiPofi, Julen Etxaniz, Benjamin Fattori, Jessica Zosa Forde, Charles Foster, Jeffrey Hsu, Mimansa Jaiswal, Wilson Y. Lee, Haonan Li, Charles Lovering, Niklas Muennighoff, Ellie Pavlick, Jason Phang, Aviya Skowron, Samson Tan, Xiangru Tang, Kevin A. Wang, Genta Indra Winata, François Yvon, and Andy Zou. 2024.
+
+
+Lessons from the Trenches on Reproducible Evaluation of Language Models.
+
+
+
+
+
+http://arxiv.org/abs/2405.14782
+
+
+
+Birhane et al. (2024)
+
+Abeba Birhane, Ryan Steed, Victor Ojewale, Briana Vecchione, and Inioluwa Deborah Raji. 2024.
+
+
+AI auditing: The Broken Bus on the Road to AI Accountability.
+
+
+
+
+
+http://arxiv.org/abs/2401.14462
+
+
+
+Blagec et al. (2023)
+
+Kathrin Blagec, Jakob Kraiger, Wolfgang Frühwirt, and Matthias Samwald. 2023.
+
+
+Benchmark datasets driving artificial intelligence development fail to capture the needs of medical professionals.
+
+
+Journal of Biomedical Informatics 137 (Jan. 2023), 104274.
+
+
+
+https://doi.org/10.1016/j.jbi.2022.104274
+
+
+
+Blili-Hamelin and Hancox-Li (2023)
+
+Borhane Blili-Hamelin and Leif Hancox-Li. 2023.
+
+
+Making Intelligence: Ethical Values in IQ and ML Benchmarks. In 2023 ACM Conference on Fairness, Accountability, and Transparency. ACM, Chicago IL USA, 271–284.
+
+
+
+https://doi.org/10.1145/3593013.3593996
+
+
+
+Blodgett et al. (2021)
+
+Su Lin Blodgett, Gilsinia Lopez, Alexandra Olteanu, Robert Sim, and Hanna Wallach. 2021.
+
+
+Stereotyping Norwegian Salmon: An Inventory of Pitfalls in Fairness Benchmark Datasets. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). Association for Computational Linguistics, Online, 1004–1015.
+
+
+
+https://doi.org/10.18653/v1/2021.acl-long.81
+
+
+
+Bowman and Dahl (2021)
+
+Samuel R. Bowman and George Dahl. 2021.
+
+
+What Will it Take to Fix Benchmarking in Natural Language Understanding?. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. Association for Computational Linguistics, Online, 4843–4855.
+
+
+
+https://doi.org/10.18653/v1/2021.naacl-main.385
+
+
+
+Bruno (2014)
+
+Isabelle Bruno. 2014.
+
+
+Benchmarking.
+
+
+Springer Netherlands, Dordrecht, 363–368.
+
+
+
+https://doi.org/10.1007/978-94-007-0753-5_170
+
+
+
+Camp (1989)
+
+Robert C. Camp. 1989.
+
+
+Benchmarking : The Search for Industry Best Practices That Lead to Superior Performance.
+
+
+Quality Press, the University of Michigan.
+
+
+
+
+
+
+Chang et al. (2023)
+
+Yupeng Chang, Xu Wang, Jindong Wang, Yuan Wu, Linyi Yang, Kaijie Zhu, Hao Chen, Xiaoyuan Yi, Cunxiang Wang, Yidong Wang, Wei Ye, Yue Zhang, Yi Chang, Philip S. Yu, Qiang Yang, and Xing Xie. 2023.
+
+
+A Survey on Evaluation of Large Language Models.
+
+
+
+
+
+http://arxiv.org/abs/2307.03109
+
+
+
+Cheng et al. (2020)
+
+Z. Cheng, CS. Pang, P. Wang, and et al. 2020.
+
+
+How to report and benchmark emerging field-effect transistors.
+
+
+Nature Electronics 5 (2020), 416–423.
+
+
+
+https://doi.org/10.1038/s41928-022-00798-8
+
+
+
+Chollet (2019)
+
+François Chollet. 2019.
+
+
+On the Measure of Intelligence.
+
+
+
+
+
+http://arxiv.org/abs/1911.01547
+
+
+
+Church and Hestness (2019)
+
+Kenneth Ward Church and Joel Hestness. 2019.
+
+
+A survey of 25 years of evaluation.
+
+
+Natural Language Engineering 25, 06 (Nov. 2019), 753–767.
+
+
+
+https://doi.org/10.1017/S1351324919000275
+
+
+
+Dehghani et al. (2021)
+
+Mostafa Dehghani, Yi Tay, Alexey A. Gritsenko, Zhe Zhao, Neil Houlsby, Fernando Diaz, Donald Metzler, and Oriol Vinyals. 2021.
+
+
+The Benchmark Lottery.
+
+
+
+
+
+http://arxiv.org/abs/2107.07002
+
+
+
+Denton et al. (2021)
+
+Emily Denton, Alex Hanna, Razvan Amironesei, Andrew Smart, and Hilary Nicole. 2021.
+
+
+On the genealogy of machine learning datasets: A critical history of ImageNet.
+
+
+Big Data & Society 8, 2 (July 2021), 1–14.
+
+
+
+https://doi.org/10.1177/20539517211035955
+
+
+
+Denton et al. (2020)
+
+Remi Denton, Alex Hanna, Razvan Amironesei, Andrew Smart, Hilary Nicole, and Morgan Klaus Scheuerman. 2020.
+
+
+Bringing the People Back In: Contesting Benchmark Machine Learning Datasets.
+
+
+
+
+
+http://arxiv.org/abs/2007.07399
+
+
+
+Diberardino et al. (2024)
+
+Nathalie Diberardino, Clair Baleshta, and Luke Stark. 2024.
+
+
+Algorithmic Harms and Algorithmic Wrongs. In The 2024 ACM Conference on Fairness, Accountability, and Transparency. ACM, Rio de Janeiro Brazil, 1725–1732.
+
+
+
+https://doi.org/10.1145/3630106.3659001
+
+
+
+Engdahl (2024)
+
+Isak Engdahl. 2024.
+
+
+Agreements ‘in the wild’: Standards and alignment in machine learning benchmark dataset construction.
+
+
+Big Data & Society 11, 2 (June 2024), 20539517241242457.
+
+
+
+https://doi.org/10.1177/20539517241242457
+
+
+
+Ethayarajh and Jurafsky (2021)
+
+Kawin Ethayarajh and Dan Jurafsky. 2021.
+
+
+Utility is in the Eye of the User: A Critique of NLP Leaderboards.
+
+
+
+
+
+http://arxiv.org/abs/2009.13888
+
+
+
+European Union (2022)
+
+European Union. 2022.
+
+
+Regulation (EU) 2022/2065 of the European Parliament and of the Council of 19 October 2022 on a Single Market For Digital Services and amending Directive 2000/31/EC (Digital Services Act).
+
+
+
+
+
+
+
+
+European Union (2024a)
+
+European Union. 2024a.
+
+
+First Draft of the General-Purpose AI Code of Practice published, written by independent experts.
+
+
+
+
+
+
+
+
+European Union (2024b)
+
+European Union. 2024b.
+
+
+Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (Artificial Intelligence Act).
+
+
+
+
+
+
+
+
+European Union (2024c)
+
+European Union. 2024c.
+
+
+Second Draft of the General-Purpose AI Code of Practice published, written by independent experts.
+
+
+
+
+
+
+
+
+Gebru et al. (2021)
+
+Timnit Gebru, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan, Hanna Wallach, Hal Daumé III, and Kate Crawford. 2021.
+
+
+Datasheets for Datasets.
+
+
+
+
+
+http://arxiv.org/abs/1803.09010
+
+
+
+Gehrmann et al. (2023)
+
+Sebastian Gehrmann, Elizabeth Clark, and Thibault Sellam. 2023.
+
+
+Repairing the Cracked Foundation: A Survey of Obstacles in Evaluation Practices for Generated Text.
+
+
+Journal of Artificial Intelligence Research 77 (May 2023), 103–166.
+
+
+
+https://doi.org/10.1613/jair.1.13715
+
+
+
+Geirhos et al. (2020)
+
+Robert Geirhos, Jörn-Henrik Jacobsen, Claudio Michaelis, Richard Zemel, Wieland Brendel, Matthias Bethge, and Felix A. Wichmann. 2020.
+
+
+Shortcut Learning in Deep Neural Networks.
+
+
+Nature Machine Intelligence 2, 11 (Nov. 2020), 665–673.
+
+
+
+https://doi.org/10.1038/s42256-020-00257-z
+
+
+
+Gema et al. (2024)
+
+Aryo Pradipta Gema, Joshua Ong Jun Leang, Giwon Hong, Alessio Devoto, Alberto Carlo Maria Mancino, Rohit Saxena, Xuanli He, Yu Zhao, Xiaotang Du, Mohammad Reza Ghasemi Madani, Claire Barale, Robert McHardy, Joshua Harris, Jean Kaddour, Emile van Krieken, and Pasquale Minervini. 2024.
+
+
+Are We Done with MMLU?
+
+
+
+
+
+https://doi.org/10.48550/arXiv.2406.04127
+
+
+
+Gomez et al. (2024)
+
+Emilia Gomez, Porcaro Lorenzo, Pedro Frau Amar, and Joao Vinagre. 2024.
+
+
+Diversity in Artificial Intelligence Conferences.
+
+
+Publications Office of the European Union JRC137550. Publications Office.
+
+
+
+https://data.europa.eu/doi/10.2760/796551
+
+
+
+Greenblatt et al. (2024)
+
+Ryan Greenblatt, Carson Denison, Benjamin Wright, Fabien Roger, Monte MacDiarmid, Sam Marks, Johannes Treutlein, Tim Belonax, Jack Chen, David Duvenaud, Akbir Khan, Julian Michael, Sören Mindermann, Ethan Perez, Linda Petrini, Jonathan Uesato, Jared Kaplan, Buck Shlegeris, Samuel R. Bowman, and Evan Hubinger. 2024.
+
+
+Alignment faking in large language models.
+
+
+
+
+
+https://doi.org/10.48550/arXiv.2412.14093
+
+
+
+Grill (2024)
+
+Gabriel Grill. 2024.
+
+
+Constructing Capabilities: The Politics of Testing Infrastructures for Generative AI. In The 2024 ACM Conference on Fairness, Accountability, and Transparency. ACM, Rio de Janeiro Brazil, 1838–1849.
+
+
+
+https://doi.org/10.1145/3630106.3659009
+
+
+
+Guldimann et al. (2024)
+
+Philipp Guldimann, Alexander Spiridonov, Robin Staab, Nikola Jovanović, Mark Vero, Velko Vechev, Anna Gueorguieva, Mislav Balunović, Nikola Konstantinov, Pavol Bielik, Petar Tsankov, and Martin Vechev. 2024.
+
+
+COMPL-AI Framework: A Technical Interpretation and LLM Benchmarking Suite for the EU Artificial Intelligence Act.
+
+
+
+
+
+http://arxiv.org/abs/2410.07959
+
+
+
+Hendrycks et al. (2021)
+
+Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. 2021.
+
+
+Measuring Massive Multitask Language Understanding.
+
+
+
+
+
+http://arxiv.org/abs/2009.03300
+
+
+
+Henning (2000)
+
+J.L. Henning. 2000.
+
+
+SPEC CPU2000: measuring CPU performance in the New Millennium.
+
+
+Computer 33, 7 (2000), 28–35.
+
+
+
+https://doi.org/10.1109/2.869367
+
+
+
+Hooker (2024)
+
+Sara Hooker. 2024.
+
+
+On the Limitations of Compute Thresholds as a Governance Strategy.
+
+
+
+
+
+http://arxiv.org/abs/2407.05694
+
+
+
+Hutchinson et al. (2022)
+
+Ben Hutchinson, Negar Rostamzadeh, Christina Greer, Katherine Heller, and Vinodkumar Prabhakaran. 2022.
+
+
+Evaluation Gaps in Machine Learning Practice. In 2022 ACM Conference on Fairness, Accountability, and Transparency. ACM, Seoul Republic of Korea, 1859–1876.
+
+
+
+https://doi.org/10.1145/3531146.3533233
+
+
+
+Jannach and Bauer (2020)
+
+Dietmar Jannach and Christine Bauer. 2020.
+
+
+Escaping the McNamara Fallacy: Toward More Impactful Recommender Systems Research.
+
+
+AI Magazine 41, 4 (Dec. 2020), 79–95.
+
+
+
+https://doi.org/10.1609/aimag.v41i4.5312
+
+
+
+Jaton (2021)
+
+Florian Jaton. 2021.
+
+
+The Constitution of Algorithms: Ground-Truthing, Programming, Formulating.
+
+
+The MIT Press, Cambridge.
+
+
+
+
+
+
+Kang (2023)
+
+Edward B Kang. 2023.
+
+
+Ground truth tracings (GTT): On the epistemic limits of machine learning.
+
+
+Big Data & Society 10, 1 (Jan. 2023), 20539517221146122.
+
+
+
+https://doi.org/10.1177/20539517221146122
+
+
+
+Kaufman et al. (2012)
+
+Shachar Kaufman, Saharon Rosset, Claudia Perlich, and Ori Stitelman. 2012.
+
+
+Leakage in data mining: Formulation, detection, and avoidance.
+
+
+ACM Trans. Knowl. Discov. Data 6, 4, Article 15 (Dec. 2012), 21 pages.
+
+
+
+https://doi.org/10.1145/2382577.2382579
+
+
+
+Keegan (2024)
+
+Jon Keegan. 2024.
+
+
+Everyone Is Judging AI by These Tests. But Experts Say They’re Close to Meaningless.
+
+
+The Markup (July 2024).
+
+
+
+https://themarkup.org/artificial-intelligence/2024/07/17/everyone-is-judging-ai-by-these-tests-but-experts-say-theyre-close-to-meaningless
+
+
+
+Keyes and Austin (2022)
+
+Os Keyes and Jeanie Austin. 2022.
+
+
+Feeling fixes: Mess and emotion in algorithmic audits.
+
+
+Big Data & Society 9, 2 (July 2022), 20539517221113772.
+
+
+
+https://doi.org/10.1177/20539517221113772
+
+
+
+Koch et al. (2021)
+
+Bernard Koch, Emily Denton, Alex Hanna, and Jacob G. Foster. 2021.
+
+
+Reduced, Reused and Recycled: The Life of a Dataset in Machine Learning Research.
+
+
+
+
+
+http://arxiv.org/abs/2112.01716
+
+
+
+Koch and Peterson (2024)
+
+Bernard J. Koch and David Peterson. 2024.
+
+
+From Protoscience to Epistemic Monoculture: How Benchmarking Set the Stage for the Deep Learning Revolution.
+
+
+
+
+
+http://arxiv.org/abs/2404.06647
+
+
+
+LaCroix and Luccioni (2022)
+
+Travis LaCroix and Alexandra Sasha Luccioni. 2022.
+
+
+Metaethical Perspectives on ’Benchmarking’ AI Ethics.
+
+
+
+
+
+http://arxiv.org/abs/2204.05151
+
+
+
+Lewis et al. (2021)
+
+Patrick Lewis, Pontus Stenetorp, and Sebastian Riedel. 2021.
+
+
+Question and Answer Test-Train Overlap in Open-Domain Question Answering Datasets. In Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume, Paola Merlo, Jorg Tiedemann, and Reut Tsarfaty (Eds.). Association for Computational Linguistics, Online, 1000–1008.
+
+
+
+https://doi.org/10.18653/v1/2021.eacl-main.86
+
+
+
+Liang et al. (2023)
+
+Percy Liang, Rishi Bommasani, Tony Lee, Dimitris Tsipras, Dilara Soylu, Michihiro Yasunaga, Yian Zhang, Deepak Narayanan, Yuhuai Wu, Ananya Kumar, Benjamin Newman, Binhang Yuan, Bobby Yan, Ce Zhang, Christian Cosgrove, Christopher D. Manning, Christopher Ré, Diana Acosta-Navas, Drew A. Hudson, Eric Zelikman, Esin Durmus, Faisal Ladhak, Frieda Rong, Hongyu Ren, Huaxiu Yao, Jue Wang, Keshav Santhanam, Laurel Orr, Lucia Zheng, Mert Yuksekgonul, Mirac Suzgun, Nathan Kim, Neel Guha, Niladri Chatterji, Omar Khattab, Peter Henderson, Qian Huang, Ryan Chi, Sang Michael Xie, Shibani Santurkar, Surya Ganguli, Tatsunori Hashimoto, Thomas Icard, Tianyi Zhang, Vishrav Chaudhary, William Wang, Xuechen Li, Yifan Mai, Yuhui Zhang, and Yuta Koreeda. 2023.
+
+
+Holistic Evaluation of Language Models.
+
+
+
+
+
+https://doi.org/10.48550/arXiv.2211.09110
+
+
+
+Liao and Xiao (2023)
+
+Q. Vera Liao and Ziang Xiao. 2023.
+
+
+Rethinking Model Evaluation as Narrowing the Socio-Technical Gap.
+
+
+
+
+
+http://arxiv.org/abs/2306.03100
+
+
+
+Liao et al. (2021)
+
+Thomas Liao, Rohan Taori, Inioluwa Deborah Raji, and Ludwig Schmidt. 2021.
+
+
+Are We Learning Yet? A Meta Review of Evaluation Failures Across Machine Learning. In Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2).
+
+
+
+https://openreview.net/forum?id=mPducS1MsEK
+
+
+
+Liu et al. (2021)
+
+Pengfei Liu, Jinlan Fu, Yang Xiao, Weizhe Yuan, Shuaicheng Chang, Junqi Dai, Yixin Liu, Zihuiwen Ye, Zi-Yi Dou, and Graham Neubig. 2021.
+
+
+ExplainaBoard: An Explainable Leaderboard for NLP.
+
+
+
+
+
+http://arxiv.org/abs/2104.06387
+
+
+
+Luitse et al. (2024)
+
+Dieuwertje Luitse, Tobias Blanke, and Thomas Poell. 2024.
+
+
+AI competitions as infrastructures of power in medical imaging.
+
+
+Information, Communication & Society (March 2024), 1–22.
+
+
+
+https://doi.org/10.1080/1369118X.2024.2334393
+
+
+
+Magar and Schwartz (2022)
+
+Inbal Magar and Roy Schwartz. 2022.
+
+
+Data Contamination: From Memorization to Exploitation. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), Smaranda Muresan, Preslav Nakov, and Aline Villavicencio (Eds.). Association for Computational Linguistics, Dublin, Ireland, 157–165.
+
+
+
+https://doi.org/10.18653/v1/2022.acl-short.18
+
+
+
+Malevé (2023)
+
+Nicolas Malevé. 2023.
+
+
+Practices of Benchmarking: Vulnerability in the Computer Vision Pipeline.
+
+
+photographies 16, 2 (May 2023), 173–189.
+
+
+
+https://doi.org/10.1080/17540763.2023.2189159
+
+
+
+Marres and Stark (2020)
+
+Noortje Marres and David Stark. 2020.
+
+
+Put to the test: For a new sociology of testing.
+
+
+The British Journal of Sociology 71, 3 (June 2020), 423–443.
+
+
+
+https://doi.org/10.1111/1468-4446.12746
+
+
+
+Mattson et al. (2020a)
+
+Peter Mattson, Christine Cheng, Gregory Diamos, Cody Coleman, Paulius Micikevicius, David Patterson, Hanlin Tang, Gu-Yeon Wei, Peter Bailis, Victor Bittorf, David Brooks, Dehao Chen, Debo Dutta, Udit Gupta, Kim Hazelwood, Andy Hock, Xinyuan Huang, Daniel Kang, David Kanter, Naveen Kumar, Jeffery Liao, Deepak Narayanan, Tayo Oguntebi, Gennady Pekhimenko, Lillian Pentecost, Vijay Janapa Reddi, Taylor Robie, Tom St John, Carole-Jean Wu, Lingjie Xu, Cliff Young, and Matei Zaharia. 2020a.
+
+
+MLPerf Training Benchmark. In Proceedings of Machine Learning and Systems, I. Dhillon, D. Papailiopoulos, and V. Sze (Eds.), Vol. 2. 336–349.
+
+
+
+https://proceedings.mlsys.org/paper_files/paper/2020/file/411e39b117e885341f25efb8912945f7-Paper.pdf
+
+
+
+Mattson et al. (2020b)
+
+Peter Mattson, Vijay Janapa Reddi, Christine Cheng, Cody Coleman, Greg Diamos, David Kanter, Paulius Micikevicius, David Patterson, Guenther Schmuelling, Hanlin Tang, Gu-Yeon Wei, and Carole-Jean Wu. 2020b.
+
+
+MLPerf: An Industry Standard Benchmark Suite for Machine Learning Performance.
+
+
+IEEE Micro 40, 2 (2020), 8–16.
+
+
+
+https://doi.org/10.1109/MM.2020.2974843
+
+
+
+McIntosh et al. (2024)
+
+Timothy R. McIntosh, Teo Susnjak, Nalin Arachchilage, Tong Liu, Paul Watters, and Malka N. Halgamuge. 2024.
+
+
+Inadequacies of Large Language Model Benchmarks in the Era of Generative Artificial Intelligence.
+
+
+
+
+
+http://arxiv.org/abs/2402.09880
+
+
+
+Michael et al. (2022)
+
+Julian Michael, Ari Holtzman, Alicia Parrish, Aaron Mueller, Alex Wang, Angelica Chen, Divyam Madaan, Nikita Nangia, Richard Yuanzhe Pang, Jason Phang, and Samuel R. Bowman. 2022.
+
+
+What Do NLP Researchers Believe? Results of the NLP Community Metasurvey.
+
+
+
+
+
+http://arxiv.org/abs/2208.12852
+
+
+
+Miltenberger et al. (2023)
+
+Marc Miltenberger, Steven Arzt, Philipp Holzinger, and Julius Näumann. 2023.
+
+
+Benchmarking the Benchmarks. In Proceedings of the ACM Asia Conference on Computer and Communications Security. ACM, Melbourne VIC Australia, 387–400.
+
+
+
+https://doi.org/10.1145/3579856.3582830
+
+
+
+Mitchell et al. (2019)
+
+Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. 2019.
+
+
+Model Cards for Model Reporting. In Proceedings of the Conference on Fairness, Accountability, and Transparency. 220–229.
+
+
+
+https://doi.org/10.1145/3287560.3287596
+
+
+
+Mizrahi et al. (2024)
+
+Moran Mizrahi, Guy Kaplan, Dan Malkin, Rotem Dror, Dafna Shahaf, and Gabriel Stanovsky. 2024.
+
+
+State of What Art? A Call for Multi-Prompt LLM Evaluation.
+
+
+
+
+
+https://doi.org/10.48550/arXiv.2401.00595
+
+
+
+Mulvin (2021)
+
+Dylan Mulvin. 2021.
+
+
+Proxies: The Cultural Work of Standing In.
+
+
+The MIT Press, Cambridge.
+
+
+
+
+
+
+Narayanan and Kapoor (2023a)
+
+Arvind Narayanan and Sayash Kapoor. 2023a.
+
+
+Evaluating LLMs Is a Minefield.
+
+
+
+
+
+https://www.cs.princeton.edu/~arvindn/talks/evaluating_llms_minefield/
+
+
+
+Narayanan and Kapoor (2023b)
+
+Arvind Narayanan and Sayash Kapoor. 2023b.
+
+
+GPT-4 and professional benchmarks: the wrong answer to the wrong question.
+
+
+
+
+
+https://www.aisnakeoil.com/p/gpt-4-and-professional-benchmarks
+
+
+
+Nasr et al. (2023a)
+
+Milad Nasr, Nicholas Carlini, Jonathan Hayase, Matthew Jagielski, A. Feder Cooper, Daphne Ippolito, Christopher A. Choquette-Choo, Eric Wallace, and Katherine Lee. 2023a.
+
+
+Extracting Training Data from ChatGPT.
+
+
+
+
+
+https://not-just-memorization.github.io/extracting-training-data-from-chatgpt.html?ref=404media.co
+
+
+
+Nasr et al. (2023b)
+
+Milad Nasr, Nicholas Carlini, Jonathan Hayase, Matthew Jagielski, A. Feder Cooper, Daphne Ippolito, Christopher A. Choquette-Choo, Eric Wallace, Florian Tramèr, and Katherine Lee. 2023b.
+
+
+Scalable Extraction of Training Data from (Production) Language Models.
+
+
+
+
+
+http://arxiv.org/abs/2311.17035
+
+
+
+Oakden-Rayner et al. (2019)
+
+Luke Oakden-Rayner, Jared Dunnmon, Gustavo Carneiro, and Christopher Ré. 2019.
+
+
+Hidden Stratification Causes Clinically Meaningful Failures in Machine Learning for Medical Imaging.
+
+
+
+
+
+http://arxiv.org/abs/1909.12475
+
+
+
+Ojewale et al. (2024)
+
+Victor Ojewale, Ryan Steed, Briana Vecchione, Abeba Birhane, and Inioluwa Deborah Raji. 2024.
+
+
+Towards AI Accountability Infrastructure: Gaps and Opportunities in AI Audit Tooling.
+
+
+
+
+
+http://arxiv.org/abs/2402.17861
+
+
+
+Orr and Crawford (2024a)
+
+Will Orr and Kate Crawford. 2024a.
+
+
+Building Better Datasets: Seven Recommendations for Responsible Design from Dataset Creators.
+
+
+
+
+
+http://arxiv.org/abs/2409.00252
+
+
+
+Orr and Crawford (2024b)
+
+Will Orr and Kate Crawford. 2024b.
+
+
+The social construction of datasets: On the practices, processes, and challenges of dataset creation for machine learning.
+
+
+New Media & Society 26, 9 (2024), 4955–4972.
+
+
+
+
+
+
+Orr and Kang (2024)
+
+Will Orr and Edward B. Kang. 2024.
+
+
+AI as a Sport: On the Competitive Epistemologies of Benchmarking. In The 2024 ACM Conference on Fairness, Accountability, and Transparency. ACM, Rio de Janeiro Brazil, 1875–1884.
+
+
+
+https://doi.org/10.1145/3630106.3659012
+
+
+
+Ott et al. (2022)
+
+Simon Ott, Adriano Barbosa-Silva, Kathrin Blagec, Jan Brauner, and Matthias Samwald. 2022.
+
+
+Mapping global dynamics of benchmark creation and saturation in artificial intelligence.
+
+
+Nature Communications 13, 1 (Nov. 2022), 6793.
+
+
+
+https://doi.org/10.1038/s41467-022-34591-0
+
+
+
+Oxford English Dictionary (2017)
+
+Oxford English Dictionary. 2017.
+
+
+Benchmark. Meaning and Use.
+
+
+
+https://www.oed.com/dictionary/benchmark_n?tab=meaning_and_use&tl=true
+
+
+
+Pacchiardi et al. (2024)
+
+Lorenzo Pacchiardi, Marko Tesic, Lucy G. Cheke, and José Hernández-Orallo. 2024.
+
+
+Leaving the barn door open for Clever Hans: Simple features predict LLM benchmark answers.
+
+
+
+
+
+http://arxiv.org/abs/2410.11672
+
+
+
+Park and Jeoung (2022)
+
+Jaihyun Park and Sullam Jeoung. 2022.
+
+
+Raison d’être of the benchmark dataset: A Survey of Current Practices of Benchmark Dataset Sharing Platforms. In Proceedings of NLP Power! The First Workshop on Efficient Benchmarking in NLP. Association for Computational Linguistics, Dublin, Ireland, 1–10.
+
+
+
+https://doi.org/10.18653/v1/2022.nlppower-1.1
+
+
+
+Paullada et al. (2021)
+
+Amandalynne Paullada, Inioluwa Deborah Raji, Emily M. Bender, Emily Denton, and Alex Hanna. 2021.
+
+
+Data and its (dis)contents: A survey of dataset development and use in machine learning research.
+
+
+Patterns 2, 11 (Nov. 2021), 100336.
+
+
+
+https://doi.org/10.1016/j.patter.2021.100336
+
+
+
+Pfister and Jud (2025)
+
+Rolf Pfister and Hansueli Jud. 2025.
+
+
+Understanding and Benchmarking Artificial Intelligence: OpenAI’s o3 Is Not AGI.
+
+
+
+
+
+http://arxiv.org/abs/2501.07458
+
+
+
+Pinch (1993)
+
+Trevor Pinch. 1993.
+
+
+”Testing - One, Two, Three … Testing!”: Toward a Sociology of Testing.
+
+
+Science, Technology, & Human Values 18, 1 (Jan. 1993), 25–41.
+
+
+
+https://doi.org/10.1177/016224399301800103
+
+
+
+Qi et al. (2023)
+
+Xiangyu Qi, Yi Zeng, Tinghao Xie, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, and Peter Henderson. 2023.
+
+
+Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!
+
+
+
+
+
+http://arxiv.org/abs/2310.03693
+
+
+
+Raji et al. (2021)
+
+Inioluwa Deborah Raji, Emily Denton, Emily M. Bender, Alex Hanna, and Amandalynne Paullada. 2021.
+
+
+AI and the Everything in the Whole Wide World Benchmark. In Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2).
+
+
+
+https://openreview.net/forum?id=j6NxpQbREA1
+
+
+
+Rauh et al. (2024)
+
+Maribeth Rauh, Nahema Marchal, Arianna Manzini, Lisa Anne Hendricks, Ramona Comanescu, Canfer Akbulut, Tom Stepleton, Juan Mateos-Garcia, Stevie Bergman, Jackie Kay, Conor Griffin, Ben Bariach, Iason Gabriel, Verena Rieser, William Isaac, and Laura Weidinger. 2024.
+
+
+Gaps in the Safety Evaluation of Generative AI.
+
+
+Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society 7 (Oct. 2024), 1200–1217.
+
+
+
+https://doi.org/10.1609/aies.v7i1.31717
+
+
+
+Ren et al. (2024)
+
+Richard Ren, Steven Basart, Adam Khoja, Alice Gatti, Long Phan, Xuwang Yin, Mantas Mazeika, Alexander Pan, Gabriel Mukobi, Ryan Hwang Kim, Stephen Fitz, and Dan Hendrycks. 2024.
+
+
+Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress?. In The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track.
+
+
+
+https://openreview.net/forum?id=YagfTP3RK6
+
+
+
+Reuel et al. (2024)
+
+Anka Reuel, Amelia Hardy, Chandler Smith, Max Lamparth, Malcolm Hardy, and Mykel Kochenderfer. 2024.
+
+
+BetterBench: Assessing AI Benchmarks, Uncovering Issues, and Establishing Best Practices. In The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track.
+
+
+
+https://openreview.net/forum?id=hcOq2buakM
+
+
+
+Roberts et al. (2023)
+
+Manley Roberts, Himanshu Thakur, Christine Herlihy, Colin White, and Samuel Dooley. 2023.
+
+
+Data Contamination Through the Lens of Time.
+
+
+
+
+
+http://arxiv.org/abs/2310.10628
+
+
+
+Rodriguez et al. (2021)
+
+Pedro Rodriguez, Joe Barrow, Alexander Miserlis Hoyle, John P. Lalor, Robin Jia, and Jordan Boyd-Graber. 2021.
+
+
+Evaluation Examples are not Equally Informative: How should that change NLP Leaderboards?. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). Association for Computational Linguistics, Online, 4486–4503.
+
+
+
+https://doi.org/10.18653/v1/2021.acl-long.346
+
+
+
+Röttger et al. (2024)
+
+Paul Röttger, Fabio Pernisi, Bertie Vidgen, and Dirk Hovy. 2024.
+
+
+SafetyPrompts: a Systematic Review of Open Datasets for Evaluating and Improving Large Language Model Safety.
+
+
+
+
+
+http://arxiv.org/abs/2404.05399
+
+
+
+Sambasivan et al. (2021)
+
+Nithya Sambasivan, Shivani Kapania, Hannah Highfill, Diana Akrong, Praveen Paritosh, and Lora M Aroyo. 2021.
+
+
+“Everyone wants to do the model work, not the data work”: Data Cascades in High-Stakes AI. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. ACM, Yokohama Japan, 1–15.
+
+
+
+https://doi.org/10.1145/3411764.3445518
+
+
+
+Scheuerman et al. (2021)
+
+Morgan Klaus Scheuerman, Alex Hanna, and Emily Denton. 2021.
+
+
+Do Datasets Have Politics? Disciplinary Values in Computer Vision Dataset Development.
+
+
+Proceedings of the ACM on Human-Computer Interaction 5, CSCW2 (Oct. 2021), 1–37.
+
+
+
+https://doi.org/10.1145/3476058
+
+
+
+Schlangen (2020)
+
+David Schlangen. 2020.
+
+
+Targeting the Benchmark: On Methodology in Current Natural Language Processing Research.
+
+
+
+
+
+http://arxiv.org/abs/2007.04792
+
+
+
+Sculley et al. (2018)
+
+D Sculley, Jasper Snoek, Ali Rahimi, and Alex Wiltschko. 2018.
+
+
+Winner’s Curse? On Pace, Progress, and Empirical Rigor. Vancouver, BC, Canada.
+
+
+
+https://openreview.net/pdf?id=rJWF0Fywf
+
+
+
+Selbst et al. (2019)
+
+Andrew D. Selbst, Danah Boyd, Sorelle A. Friedler, Suresh Venkatasubramanian, and Janet Vertesi. 2019.
+
+
+Fairness and Abstraction in Sociotechnical Systems. In Proceedings of the Conference on Fairness, Accountability, and Transparency. ACM, Atlanta GA USA, 59–68.
+
+
+
+https://doi.org/10.1145/3287560.3287598
+
+
+
+Sen et al. (2015)
+
+Shilad Sen, Margaret E. Giesel, Rebecca Gold, Benjamin Hillmann, Matt Lesicko, Samuel Naden, Jesse Russell, Zixiao (Ken) Wang, and Brent Hecht. 2015.
+
+
+Turkers, Scholars, ”Arafat” and ”Peace”: Cultural Communities and Algorithmic Gold Standards. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing. ACM, Vancouver BC Canada, 826–838.
+
+
+
+https://doi.org/10.1145/2675133.2675285
+
+
+
+Simson et al. (2024)
+
+Jan Simson, Alessandro Fabris, and Christoph Kern. 2024.
+
+
+Lazy Data Practices Harm Fairness Research. In The 2024 ACM Conference on Fairness, Accountability, and Transparency. ACM, Rio de Janeiro Brazil, 642–659.
+
+
+
+https://doi.org/10.1145/3630106.3658931
+
+
+
+Smith et al. (2022)
+
+Jessie J. Smith, Saleema Amershi, Solon Barocas, Hanna Wallach, and Jennifer Wortman Vaughan. 2022.
+
+
+REAL ML: Recognizing, Exploring, and Articulating Limitations of Machine Learning Research. In 2022 ACM Conference on Fairness, Accountability, and Transparency. 587–597.
+
+
+
+https://doi.org/10.1145/3531146.3533122
+
+
+
+Srivastava et al. (2023)
+
+Aarohi Srivastava, Abhinav Rastogi, Abhishek Rao, Abu Awal Md Shoeb, Abubakar Abid, Adam Fisch, Adam R. Brown, Adam Santoro, Aditya Gupta, Adrià Garriga-Alonso, Agnieszka Kluska, Aitor Lewkowycz, Akshat Agarwal, Alethea Power, Alex Ray, Alex Warstadt, et al. 2023.
+
+
+Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models.
+
+
+
+
+
+http://arxiv.org/abs/2206.04615
+
+
+
+Stengers (2018)
+
+Isabelle Stengers. 2018.
+
+
+Another science is possible: a manifesto for slow science.
+
+
+Polity press, Cambridge.
+
+
+
+
+
+
+Stewart (2023)
+
+Matthew Stewart. 2023.
+
+
+The Olympics of AI: Benchmarking Machine Learning Systems.
+
+
+
+
+
+https://towardsdatascience.com/the-olympics-of-ai-benchmarking-machine-learning-systems-c4b2051fbd2b
+
+
+
+Strathern (1997)
+
+Marilyn Strathern. 1997.
+
+
+‘Improving ratings’: audit in the British University system.
+
+
+European Review 5, 3 (July 1997), 305–321.
+
+
+
+https://doi.org/10.1002/(SICI)1234-981X(199707)5:3<305::AID-EURO184>3.0.CO;2-4
+
+
+
+Subramonian et al. (2023)
+
+Arjun Subramonian, Xingdi Yuan, Hal Daumé III, and Su Lin Blodgett. 2023.
+
+
+It Takes Two to Tango: Navigating Conceptualizations of NLP Tasks and Measurements of Performance.
+
+
+
+
+
+http://arxiv.org/abs/2305.09022
+
+
+
+Thakur et al. (2021)
+
+Nandan Thakur, Nils Reimers, Andreas Rücklé, Abhishek Srivastava, and Iryna Gurevych. 2021.
+
+
+BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models. In Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2).
+
+
+
+https://openreview.net/forum?id=wCu6T5xFjeJ
+
+
+
+The White House (2023)
+
+The White House. 2023.
+
+
+Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence.
+
+
+
+
+
+
+
+
+Thylstrup et al. (2022)
+
+Nanna Bonde Thylstrup, Kristian Bondo Hansen, Mikkel Flyverbom, and Louise Amoore. 2022.
+
+
+Politics of data reuse in machine learning systems: Theorizing reuse entanglements.
+
+
+Big Data & Society 9, 2 (July 2022), 20539517221139785.
+
+
+
+https://doi.org/10.1177/20539517221139785
+
+
+
+Tirumala et al. (2022)
+
+Kushal Tirumala, Aram Markosyan, Luke Zettlemoyer, and Armen Aghajanyan. 2022.
+
+
+Memorization Without Overfitting: Analyzing the Training Dynamics of Large Language Models. In Advances in Neural Information Processing Systems, S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh (Eds.), Vol. 35. Curran Associates, Inc., 38274–38290.
+
+
+
+https://proceedings.neurips.cc/paper_files/paper/2022/file/fa0509f4dab6807e2cb465715bf2d249-Paper-Conference.pdf
+
+
+
+Tsipras et al. (2020)
+
+Dimitris Tsipras, Shibani Santurkar, Logan Engstrom, Andrew Ilyas, and Aleksander Madry. 2020.
+
+
+From ImageNet to Image Classification: Contextualizing Progress on Benchmarks.
+
+
+
+
+
+http://arxiv.org/abs/2005.11295
+
+
+
+UK Parliament (2023)
+
+UK Parliament. 2023.
+
+
+Online Safety Act 2023.
+
+
+
+
+
+
+
+
+US Department of Commerce (2025)
+
+US Department of Commerce. 2025.
+
+
+Framework for Artificial Intelligence Diffusion.
+
+
+
+
+
+
+
+
+Vafa et al. (2024)
+
+Keyon Vafa, Justin Y. Chen, Ashesh Rambachan, Jon Kleinberg, and Sendhil Mullainathan. 2024.
+
+
+Evaluating the World Model Implicit in a Generative Model.
+
+
+
+
+
+http://arxiv.org/abs/2406.03689
+
+
+
+Weidinger et al. (2023)
+
+Laura Weidinger, Maribeth Rauh, Nahema Marchal, Arianna Manzini, Lisa Anne Hendricks, Juan Mateos-Garcia, Stevie Bergman, Jackie Kay, Conor Griffin, Ben Bariach, Iason Gabriel, Verena Rieser, and William Isaac. 2023.
+
+
+Sociotechnical Safety Evaluation of Generative AI Systems.
+
+
+
+
+
+http://arxiv.org/abs/2310.11986
+
+
+
+Weij et al. (2024)
+
+Teun van der Weij, Felix Hofstätter, Ollie Jaffe, Samuel F. Brown, and Francis Rhys Ward. 2024.
+
+
+AI Sandbagging: Language Models can Strategically Underperform on Evaluations.
+
+
+
+
+
+http://arxiv.org/abs/2406.07358
+
+
+
+Xu et al. (2024)
+
+Cheng Xu, Shuhao Guan, Derek Greene, and M.-Tahar Kechadi. 2024.
+
+
+Benchmark Data Contamination of Large Language Models: A Survey.
+
+
+
+
+
+http://arxiv.org/abs/2406.04244
+
+
+
+Yuan et al. (2023)
+
+Lifan Yuan, Yangyi Chen, Ganqu Cui, Hongcheng Gao, Fangyuan Zou, Xingyi Cheng, Heng Ji, Zhiyuan Liu, and Maosong Sun. 2023.
+
+
+Revisiting Out-of-distribution Robustness in NLP: Benchmark, Analysis, and LLMs Evaluations.
+
+
+37th Conference on Neural Information Processing Systems (NeurIPS 2023) Track on Datasets and Benchmarks (2023).
+
+
+
+
+
+
+Zhang et al. (2024)
+
+Andy K. Zhang, Kevin Klyman, Yifan Mai, Yoav Levine, Yian Zhang, Rishi Bommasani, and Percy Liang. 2024.
+
+
+Language model developers should report train-test overlap.
+
+
+
+
+
+http://arxiv.org/abs/2410.08385
+
+
+
+Zhijia (2024)
+
+Lin Zhijia. 2024.
+
+
+Top LLMs in China and the U.S. Only 5 Months Apart: Kai-Fu Lee.
+
+
+
+
+
+https://en.tmtpost.com/post/7289212"
+Tighter Value-Function Approximations for POMDPs,"Abstract.
+Solving partially observable Markov decision processes (POMDPs) typically requires reasoning about the values of exponentially many state beliefs.
+Towards practical performance, state-of-the-art solvers use value bounds to guide this reasoning.
+However, sound upper value bounds are often computationally expensive to compute, and there is a tradeoff between the tightness of such bounds and their computational cost.
+This paper introduces new and provably tighter upper value bounds than the commonly used fast informed bound.
+Our empirical evaluation shows that, despite their additional computational overhead, the new upper bounds accelerate state-of-the-art POMDP solvers on a wide range of benchmarks.","References
+
+
+(1)
+
+
+
+
+Agarwal and
+Aggarwal (2021)
+
+Mridul Agarwal and
+Vaneet Aggarwal. 2021.
+
+
+Blind decision making: Reinforcement learning with
+delayed observations.
+
+
+Pattern Recognit. Lett.
+150 (2021), 176–182.
+
+
+
+
+
+
+Altman and Nain (1992)
+
+Eitan Altman and
+Philippe Nain. 1992.
+
+
+Closed-Loop Control with Delayed Information. In
+SIGMETRICS. ACM,
+193–204.
+
+
+
+
+
+
+Amato
+et al. (2006)
+
+Christopher Amato,
+Daniel S. Bernstein, and Shlomo
+Zilberstein. 2006.
+
+
+Optimal fixed-size controllers for decentralized
+POMDPs. In AAMAS MSDM workshop.
+
+
+
+
+
+
+Åström (1965)
+
+Karl Johan Åström.
+1965.
+
+
+Optimal control of Markov processes with
+incomplete state information.
+
+
+Journal of mathematical analysis and
+applications 10, 1
+(1965), 174–205.
+
+
+
+
+
+
+Banach (1922)
+
+Stefan Banach.
+1922.
+
+
+Sur les opérations dans les ensembles abstraits
+et leur application aux équations intégrales.
+
+
+Fundamenta mathematicae
+3, 1 (1922),
+133–181.
+
+
+
+
+
+
+Barenboim and
+Indelman (2023)
+
+Moran Barenboim and
+Vadim Indelman. 2023.
+
+
+Online POMDP Planning with Anytime Deterministic
+Guarantees. In NeurIPS.
+
+
+
+
+
+
+Bellinger et al. (2021)
+
+Colin Bellinger, Rory
+Coles, Mark Crowley, and Isaac
+Tamblyn. 2021.
+
+
+Active Measure Reinforcement Learning for
+Observation Cost Minimization. In Canadian
+Conference on AI. Canadian Artificial Intelligence
+Association.
+
+
+
+
+
+
+Bellman (1957)
+
+Richard Bellman.
+1957.
+
+
+A Markovian Decision Process.
+
+
+Indiana Univ. Math. J. 6
+(1957), 679–684.
+
+
+Issue 4.
+
+
+
+
+Bonet (2002)
+
+Blai Bonet.
+2002.
+
+
+An epsilon-Optimal Grid-Based Algorithm for
+Partially Observable Markov Decision Processes. In
+ICML. Morgan Kaufmann,
+51–58.
+
+
+
+
+
+
+Bork
+et al. (2020)
+
+Alexander Bork, Sebastian
+Junges, Joost-Pieter Katoen, and Tim
+Quatmann. 2020.
+
+
+Verification of Indefinite-Horizon POMDPs. In
+ATVA (Lecture Notes in
+Computer Science, Vol. 12302).
+Springer, 288–304.
+
+
+
+
+
+
+Bork
+et al. (2022)
+
+Alexander Bork,
+Joost-Pieter Katoen, and Tim
+Quatmann. 2022.
+
+
+Under-Approximating Expected Total Rewards in
+POMDPs. In TACAS (2)
+(Lecture Notes in Computer Science,
+Vol. 13244). Springer,
+22–40.
+
+
+
+
+
+
+Cassandra
+et al. (1994)
+
+Anthony R. Cassandra,
+Leslie P. Kaelbling, and Michael L.
+Littman. 1994.
+
+
+Acting Optimally in Partially Observable Stochastic
+Domains. In AAAI. 1023–1028.
+
+
+
+
+
+
+Cassandra
+et al. (1997)
+
+Anthony R. Cassandra,
+Michael L. Littman, and Nevin Lianwen
+Zhang. 1997.
+
+
+Incremental Pruning: A Simple, Fast, Exact Method
+for Partially Observable Markov Decision Processes. In
+UAI. 54–61.
+
+
+
+
+
+
+Derman
+et al. (2021)
+
+Esther Derman, Gal Dalal,
+and Shie Mannor. 2021.
+
+
+Acting in Delayed Environments with Non-Stationary
+Markov Policies. In ICLR.
+OpenReview.net.
+
+
+
+
+
+
+Dujardin
+et al. (2017)
+
+Yann Dujardin, Tom
+Dietterich, and Iadine Chades.
+2017.
+
+
+Three New Algorithms to Solve N-POMDPs. In
+AAAI. 4495–4501.
+
+
+
+
+
+
+Egorov et al. (2017)
+
+Maxim Egorov, Zachary N.
+Sunberg, Edward Balaban, Tim A. Wheeler,
+Jayesh K. Gupta, and Mykel J.
+Kochenderfer. 2017.
+
+
+POMDPs.jl: A Framework for Sequential Decision
+Making under Uncertainty.
+
+
+Journal of Machine Learning Research
+18, 26 (2017),
+1–5.
+
+
+
+http://jmlr.org/papers/v18/16-300.html
+
+
+
+Forrest et al. (2024)
+
+John Forrest, Stefan
+Vigerske, Ted Ralphs, Lou Hafer,
+J. P. Fasano, Haroldo Gambini Santos,
+Jan-Willem Goossens, Matthew Saltzman,
+a andre, Bjarni Kristjansson,
+H. I. Gassmann, Alan King,
+Arevall, Bohdan Mart,
+Pierre Bonami, Ruan Luies,
+Samuel Brito, and to st.
+2024.
+
+
+coin-or/Clp: Release releases/1.17.10.
+
+
+
+
+
+https://doi.org/10.5281/zenodo.13347196
+
+
+
+Grover and
+Dimitrakakis (2021)
+
+Divya Grover and
+Christos Dimitrakakis. 2021.
+
+
+Adaptive Belief Discretization for POMDP
+Planning.
+
+
+CoRR abs/2104.07276
+(2021).
+
+
+
+
+
+
+Han
+et al. (2020)
+
+Dongqi Han, Kenji Doya,
+and Jun Tani. 2020.
+
+
+Variational Recurrent Models for Solving Partially
+Observable Control Tasks. In ICLR.
+OpenReview.net.
+
+
+
+
+
+
+Hansen and Bowman (2020)
+
+Eric A. Hansen and
+Thomas Bowman. 2020.
+
+
+Improved Vector Pruning in Exact Algorithms for
+Solving POMDPs. In UAI.
+1258–1267.
+
+
+
+
+
+
+Haugh and
+Lacedelli (2020)
+
+Martin B. Haugh and
+Octavio Ruiz Lacedelli. 2020.
+
+
+Information Relaxation Bounds for Partially
+Observed Markov Decision Processes.
+
+
+IEEE Trans. Autom. Control.
+65, 8 (2020),
+3256–3271.
+
+
+
+
+
+
+Hausknecht and
+Stone (2015)
+
+Matthew J. Hausknecht and
+Peter Stone. 2015.
+
+
+Deep Recurrent Q-Learning for Partially
+Observable MDPs. In AAAI Fall Symposia.
+AAAI Press, 29–37.
+
+
+
+
+
+
+Hauskrecht (2000)
+
+Milos Hauskrecht.
+2000.
+
+
+Value-Function Approximations for Partially
+Observable Markov Decision Processes.
+
+
+JAIR 13
+(2000), 33–94.
+
+
+
+
+
+
+Hauskrecht and
+Fraser (2000)
+
+Milos Hauskrecht and
+Hamish S. F. Fraser. 2000.
+
+
+Planning treatment of ischemic heart disease with
+partially observable Markov decision processes.
+
+
+Artif. Intell. Medicine
+18, 3 (2000),
+221–244.
+
+
+
+
+
+
+Jeon
+et al. (2022)
+
+Wha Sook Jeon, Seung Beom
+Seo, and Dong Geun Jeong.
+2022.
+
+
+POMDP-Based Contention Resolution for Framed
+Slotted-ALOHA Protocol in Machine-Type Communications.
+
+
+IEEE Internet Things J.
+9, 15 (2022),
+13511–13523.
+
+
+
+
+
+
+Kaelbling
+et al. (1998)
+
+Leslie P. Kaelbling,
+Michael L. Littman, and Anthony R.
+Cassandra. 1998.
+
+
+Planning and Acting in Partially Observable
+Stochastic Domains.
+
+
+Artif. Intell. 101,
+1-2 (1998), 99–134.
+
+
+
+
+
+
+Kapur and Pecht (2014)
+
+Kailash Kapur and
+Michael Pecht. 2014.
+
+
+Reliability Engineering John Wiley, 2014.
+
+
+John Wiley.
+
+
+
+
+
+
+Katsikopoulos
+and Engelbrecht (2003)
+
+Konstantinos V. Katsikopoulos and
+Sascha E. Engelbrecht. 2003.
+
+
+Markov decision processes with delays and
+asynchronous cost collection.
+
+
+IEEE Trans. Autom. Control.
+48, 4 (2003),
+568–574.
+
+
+
+
+
+
+Kochenderfer
+et al. (2022)
+
+Mykel J. Kochenderfer,
+Tim A. Wheeler, and Kyle H. Wray.
+2022.
+
+
+Algorithms for Decision Making.
+
+
+MIT Press.
+
+
+
+https://mitpress.mit.edu/9780262047012/algorithms-for-decision-making/
+
+
+
+Krale
+et al. (2023)
+
+Merlijn Krale, Thiago D.
+Simão, and Nils Jansen.
+2023.
+
+
+Act-Then-Measure: Reinforcement Learning for
+Partially Observable Environments with Active Measuring. In
+ICAPS. AAAI Press,
+212–220.
+
+
+
+
+
+
+Kurniawati
+et al. (2008)
+
+Hanna Kurniawati, David
+Hsu, and Wee Sun Lee. 2008.
+
+
+SARSOP: Efficient Point-Based POMDP Planning by
+Approximating Optimally Reachable Belief Spaces. In
+Robotics: Science and Systems.
+The MIT Press.
+
+
+
+
+
+
+Lee
+et al. (2020)
+
+Alex X. Lee, Anusha
+Nagabandi, Pieter Abbeel, and Sergey
+Levine. 2020.
+
+
+Stochastic Latent Actor-Critic: Deep Reinforcement
+Learning with a Latent Variable Model. In
+NeurIPS.
+
+
+
+
+
+
+Littman
+et al. (1995)
+
+Michael L. Littman,
+Anthony R. Cassandra, and Leslie P.
+Kaelbling. 1995.
+
+
+Learning Policies for Partially Observable
+Environments: Scaling Up. In ICML.
+Morgan Kaufmann, 362–370.
+
+
+
+
+
+
+Lovejoy (1991)
+
+William S. Lovejoy.
+1991.
+
+
+Computationally Feasible Bounds for Partially
+Observed Markov Decision Processes.
+
+
+Oper. Res. 39,
+1 (1991), 162–175.
+
+
+
+
+
+
+Lubin et al. (2023)
+
+Miles Lubin, Oscar
+Dowson, Joaquim Dias Garcia, Joey
+Huchette, Benoît Legat, and
+Juan Pablo Vielma. 2023.
+
+
+JuMP 1.0: Recent improvements to a modeling
+language for mathematical optimization.
+
+
+Mathematical Programming Computation
+(2023).
+
+
+
+https://doi.org/10.1007/s12532-023-00239-3
+
+
+
+Madani
+et al. (1999)
+
+Omid Madani, Steve Hanks,
+and Anne Condon. 1999.
+
+
+On the Undecidability of Probabilistic Planning and
+Infinite-Horizon Partially Observable Markov Decision Problems. In
+AAAI/IAAI. AAAI Press /
+The MIT Press, 541–548.
+
+
+
+
+
+
+Morato et al. (2022b)
+
+Pablo G. Morato,
+Konstantinos G. Papakonstantinou,
+Charalampos P. Andriotis,
+Jannie Sønderkær Nielsen, and
+Philippe Rigo. 2022b.
+
+
+Optimal inspection and maintenance planning for
+deteriorating structural components through dynamic Bayesian networks and
+Markov decision processes.
+
+
+Structural Safety 94
+(2022), 102140.
+
+
+
+
+
+
+Morato et al. (2022a)
+
+Pablo G. Morato,
+Konstantinos G. Papakonstantinou,
+Charalampos P. Andriotis, and Philippe
+Rigo. 2022a.
+
+
+Managing offshore wind turbines through Markov
+decision processes and dynamic Bayesian networks. In
+13th International Conference on Structural Safety
+& Reliability (ICOSSAR).
+
+
+
+
+
+
+Nam
+et al. (2021)
+
+Hyunji Alex Nam, Scott L.
+Fleming, and Emma Brunskill.
+2021.
+
+
+Reinforcement Learning with State Observation Costs
+in Action-Contingent Noiselessly Observable Markov Decision Processes. In
+NeurIPS. 15650–15666.
+
+
+
+
+
+
+Norman
+et al. (2017)
+
+Gethin Norman, David
+Parker, and Xueyi Zou. 2017.
+
+
+Verification and control of partially observable
+probabilistic systems.
+
+
+Real Time Syst. 53,
+3 (2017), 354–402.
+
+
+
+
+
+
+Pineau
+et al. (2003)
+
+Joelle Pineau, Geoffrey J.
+Gordon, and Sebastian Thrun.
+2003.
+
+
+Point-based value iteration: An anytime algorithm
+for POMDPs. In IJCAI.
+1025–1032.
+
+
+
+
+
+
+Puterman (1994)
+
+Martin L. Puterman.
+1994.
+
+
+Markov Decision Processes: Discrete
+Stochastic Dynamic Programming.
+
+
+Wiley.
+
+
+
+
+
+
+Silver and Veness (2010)
+
+David Silver and Joel
+Veness. 2010.
+
+
+Monte-Carlo Planning in Large POMDPs. In
+NIPS. Curran Associates,
+Inc., 2164–2172.
+
+
+
+
+
+
+Sinuany-Stern et al. (1997)
+
+Zilla Sinuany-Stern,
+Israel David, and Sigal Biran.
+1997.
+
+
+An efficient heuristic for a partially observable
+Markov decision process of machine replacement.
+
+
+Comput. Oper. Res. 24,
+2 (1997), 117–126.
+
+
+
+
+
+
+Smallwood and
+Sondik (1973)
+
+Richard D. Smallwood and
+Edward J. Sondik. 1973.
+
+
+The Optimal Control of Partially Observable
+Markov Processes over a Finite Horizon.
+
+
+Oper. Res. 21,
+5 (1973), 1071–1088.
+
+
+
+
+
+
+Smith and Simmons (2004)
+
+Trey Smith and Reid G.
+Simmons. 2004.
+
+
+Heuristic Search Value Iteration for POMDPs. In
+UAI. 520–527.
+
+
+
+
+
+
+Smith and Simmons (2005)
+
+Trey Smith and Reid G.
+Simmons. 2005.
+
+
+Point-Based POMDP Algorithms: Improved Analysis
+and Implementation. In UAI.
+542–547.
+
+
+
+
+
+
+Sondik (1978)
+
+Edward J. Sondik.
+1978.
+
+
+The Optimal Control of Partially Observable Markov
+Processes over the Infinite Horizon: Discounted Costs.
+
+
+Oper. Res. 26,
+2 (1978), 282–304.
+
+
+
+
+
+
+Spaan (2012)
+
+Matthijs T. J. Spaan.
+2012.
+
+
+Partially Observable Markov Decision Processes.
+
+
+In Reinforcement Learning,
+Marco A. Wiering and
+Martijn van Otterlo (Eds.). Adaptation,
+Learning, and Optimization, Vol. 12.
+Springer, 387–414.
+
+
+
+
+
+
+Temizer et al. (2010)
+
+Selim Temizer, Mykel
+Kochenderfer, Leslie Kaelbling, Tomas
+Lozano-Pérez, and James Kuchar.
+2010.
+
+
+Collision avoidance for unmanned aircraft using
+Markov decision processes. In AIAA guidance,
+navigation, and control conference.
+
+
+
+
+
+
+Walraven and
+Spaan (2017)
+
+Erwin Walraven and
+Matthijs T. J. Spaan. 2017.
+
+
+Accelerated Vector Pruning for Optimal POMDP
+Solvers. In AAAI. 3672–3678.
+
+
+
+
+
+
+Walsh
+et al. (2009)
+
+Thomas J. Walsh, Ali
+Nouri, Lihong Li, and Michael L.
+Littman. 2009.
+
+
+Learning and planning in environments with delayed
+feedback.
+
+
+Auton. Agents Multi Agent Syst.
+18, 1 (2009),
+83–105.
+
+
+
+
+
+
+Wang
+et al. (2006)
+
+Tao Wang, Pascal Poupart,
+Michael H. Bowling, and Dale
+Schuurmans. 2006.
+
+
+Compact, Convex Upper Bound Iteration for
+Approximate POMDP Planning. In AAAI.
+AAAI Press, 1245–1252.
+
+
+
+
+
+
+Wray and
+Zilberstein (2017)
+
+Kyle Hollins Wray and
+Shlomo Zilberstein. 2017.
+
+
+Approximating reachable belief points in POMDPs.
+In IROS. IEEE,
+117–122.
+
+
+
+
+
+
+Wu
+et al. (2021)
+
+Chenyang Wu, Guoyu Yang,
+Zongzhang Zhang, Yang Yu,
+Dong Li, Wulong Liu, and
+Jianye Hao. 2021.
+
+
+Adaptive Online Packing-guided Search for
+POMDPs. In NeurIPS.
+28419–28430.
+
+
+
+
+
+
+Ye
+et al. (2017)
+
+Nan Ye, Adhiraj Somani,
+David Hsu, and Wee Sun Lee.
+2017.
+
+
+DESPOT: Online POMDP Planning with
+Regularization.
+
+
+J. Artif. Intell. Res.
+58 (2017), 231–266.
+
+
+
+
+
+
+Yoon
+et al. (2008)
+
+Sung Wook Yoon, Alan
+Fern, Robert Givan, and Subbarao
+Kambhampati. 2008.
+
+
+Probabilistic Planning via Determinization in
+Hindsight. In AAAI. AAAI
+Press, 1010–1016.
+
+
+
+
+
+
+Zhou and Hansen (2001)
+
+Rong Zhou and Eric A.
+Hansen. 2001.
+
+
+An Improved Grid-Based Approximation Algorithm for
+POMDPs. In IJCAI. 707–716."
+"AppVLM: A Lightweight Vision Language Model 
+for Online App Control","Abstract
+The utilisation of foundation models as smartphone assistants, termed app agents, is a critical research challenge. These agents aim to execute human instructions on smartphones by interpreting textual instructions and performing actions via the device’s interface.
+While promising, current approaches face significant limitations. Methods that use large proprietary models, such as GPT-4o, are computationally expensive, while those that use smaller fine-tuned models often lack adaptability to out-of-distribution tasks.
+In this work, we introduce AppVLM, a lightweight Vision-Language Model (VLM). First, we fine-tune it offline on the AndroidControl dataset. Then, we refine its policy by collecting data from the AndroidWorld environment and performing further training iterations.
+Our results indicate that AppVLM achieves the highest action prediction accuracy in offline evaluation on the AndroidControl dataset, compared to all evaluated baselines, and matches GPT-4o in online task completion success rate in the AndroidWorld environment, while being up to ten times faster. This makes AppVLM a practical and efficient solution for real-world deployment.","References
+
+
+Bai et al. (2024)
+
+Bai, H., Zhou, Y., Cemri, M., Pan, J., Suhr, A., Levine, S., and Kumar, A.
+
+
+Digirl: Training in-the-wild device-control agents with autonomous
+reinforcement learning.
+
+
+arXiv preprint arXiv:2406.11896, 2024.
+
+
+
+
+Beyer et al. (2024)
+
+Beyer, L., Steiner, A., Pinto, A. S., Kolesnikov, A., Wang, X., Salz, D.,
+Neumann, M., Alabdulmohsin, I., Tschannen, M., Bugliarello, E., et al.
+
+
+Paligemma: A versatile 3b vlm for transfer.
+
+
+arXiv preprint arXiv:2407.07726, 2024.
+
+
+
+
+Chan et al. (2023)
+
+Chan, H., Mnih, V., Behbahani, F., Laskin, M., Wang, L., Pardo, F., Gazeau, M.,
+Sahni, H., Horgan, D., Baumli, K., et al.
+
+
+Vision-language models as a source of rewards.
+
+
+In Second Agent Learning in Open-Endedness Workshop, 2023.
+
+
+
+
+Chen et al. (2024)
+
+Chen, J., Yuen, D., Xie, B., Yang, Y., Chen, G., Wu, Z., Yixing, L., Zhou, X.,
+Liu, W., Wang, S., et al.
+
+
+Spa-bench: A comprehensive benchmark for smartphone agent evaluation.
+
+
+In NeurIPS 2024 Workshop on Open-World Agents, 2024.
+
+
+
+
+Christianos et al. (2024)
+
+Christianos, F., Papoudakis, G., Coste, T., Hao, J., Wang, J., and Shao, K.
+
+
+Lightweight neural app control.
+
+
+arXiv preprint arXiv:2410.17883, 2024.
+
+
+
+
+Dubey et al. (2024)
+
+Dubey, A., Jauhri, A., Pandey, A., Kadian, A., Al-Dahle, A., Letman, A.,
+Mathur, A., Schelten, A., Yang, A., Fan, A., et al.
+
+
+The llama 3 herd of models.
+
+
+arXiv preprint arXiv:2407.21783, 2024.
+
+
+
+
+Gou et al. (2024)
+
+Gou, B., Wang, R., Zheng, B., Xie, Y., Chang, C., Shu, Y., Sun, H., and Su, Y.
+
+
+Navigating the digital world as humans do: Universal visual grounding
+for gui agents.
+
+
+arXiv preprint arXiv:2410.05243, 2024.
+
+
+
+
+Gulcehre et al. (2023)
+
+Gulcehre, C., Paine, T. L., Srinivasan, S., Konyushkova, K., Weerts, L.,
+Sharma, A., Siddhant, A., Ahern, A., Wang, M., Gu, C., et al.
+
+
+Reinforced self-training (rest) for language modeling.
+
+
+arXiv preprint arXiv:2308.08998, 2023.
+
+
+
+
+Hu et al. (2021)
+
+Hu, E. J., Shen, Y., Wallis, P., Allen-Zhu, Z., Li, Y., Wang, S., Wang, L., and
+Chen, W.
+
+
+Lora: Low-rank adaptation of large language models.
+
+
+arXiv preprint arXiv:2106.09685, 2021.
+
+
+
+
+Lee et al. (2024)
+
+Lee, S., Choi, J., Lee, J., Wasi, M. H., Choi, H., Ko, S., Oh, S., and Shin, I.
+
+
+Mobilegpt: Augmenting llm with human-like app memory for mobile task
+automation.
+
+
+In Proceedings of the 30th Annual International Conference on
+Mobile Computing and Networking, pp.  1119–1133, 2024.
+
+
+
+
+Li et al. (2024)
+
+Li, W., Bishop, W., Li, A., Rawles, C., Campbell-Ajala, F., Tyamagundlu, D.,
+and Riva, O.
+
+
+On the effects of data scale on computer control agents.
+
+
+arXiv preprint arXiv:2406.03679, 2024.
+
+
+
+
+Liu et al. (2025)
+
+Liu, Y., Li, P., Wei, Z., Xie, C., Hu, X., Xu, X., Zhang, S., Han, X., Yang,
+H., and Wu, F.
+
+
+Infiguiagent: A multimodal generalist gui agent with native reasoning
+and reflection.
+
+
+arXiv preprint arXiv:2501.04575, 2025.
+
+
+
+
+Loshchilov et al. (2017)
+
+Loshchilov, I., Hutter, F., et al.
+
+
+Fixing weight decay regularization in adam.
+
+
+arXiv preprint arXiv:1711.05101, 5, 2017.
+
+
+
+
+Ma et al. (2024)
+
+Ma, X., Zhang, Z., and Zhao, H.
+
+
+Comprehensive cognitive llm agent for smartphone gui automation.
+
+
+arXiv preprint arXiv:2402.11941, 2024.
+
+
+
+
+Ma et al. (2022)
+
+Ma, Y. J., Sodhani, S., Jayaraman, D., Bastani, O., Kumar, V., and Zhang, A.
+
+
+Vip: Towards universal visual reward and representation via
+value-implicit pre-training.
+
+
+arXiv preprint arXiv:2210.00030, 2022.
+
+
+
+
+Putta et al. (2024)
+
+Putta, P., Mills, E., Garg, N., Motwani, S., Finn, C., Garg, D., and Rafailov,
+R.
+
+
+Agent q: Advanced reasoning and learning for autonomous ai agents.
+
+
+arXiv preprint arXiv:2408.07199, 2024.
+
+
+
+
+Radford et al. (2021)
+
+Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry,
+G., Askell, A., Mishkin, P., Clark, J., et al.
+
+
+Learning transferable visual models from natural language
+supervision.
+
+
+In International conference on machine learning, 2021.
+
+
+
+
+Rawles et al. (2023)
+
+Rawles, C., Li, A., Rodriguez, D., Riva, O., and Lillicrap, T.
+
+
+Androidinthewild: A large-scale dataset for android device control.
+
+
+Advances in Neural Information Processing Systems, 36, 2023.
+
+
+
+
+Rawles et al. (2024)
+
+Rawles, C., Clinckemaillie, S., Chang, Y., Waltz, J., Lau, G., Fair, M., Li,
+A., Bishop, W., Li, W., Campbell-Ajala, F., et al.
+
+
+Androidworld: A dynamic benchmarking environment for autonomous
+agents.
+
+
+arXiv preprint arXiv:2405.14573, 2024.
+
+
+
+
+Song et al. (2024)
+
+Song, Z., Li, Y., Fang, M., Chen, Z., Shi, Z., Huang, Y., and Chen, L.
+
+
+Mmac-copilot: Multi-modal agent collaboration operating system
+copilot.
+
+
+arXiv preprint arXiv:2404.18074, 2024.
+
+
+
+
+Toyama et al. (2021)
+
+Toyama, D., Hamel, P., Gergely, A., Comanici, G., Glaese, A., Ahmed, Z.,
+Jackson, T., Mourad, S., and Precup, D.
+
+
+Androidenv: A reinforcement learning platform for android.
+
+
+arXiv preprint arXiv:2105.13231, 2021.
+
+
+
+
+Wang et al. (2024a)
+
+Wang, J., Xu, H., Jia, H., Zhang, X., Yan, M., Shen, W., Zhang, J., Huang, F.,
+and Sang, J.
+
+
+Mobile-agent-v2: Mobile device operation assistant with effective
+navigation via multi-agent collaboration.
+
+
+arXiv preprint arXiv:2406.01014, 2024a.
+
+
+
+
+Wang et al. (2024b)
+
+Wang, J., Xu, H., Ye, J., Yan, M., Shen, W., Zhang, J., Huang, F., and Sang, J.
+
+
+Mobile-agent: Autonomous multi-modal mobile device agent with visual
+perception.
+
+
+arXiv preprint arXiv:2401.16158, 2024b.
+
+
+
+
+Wang et al. (2024c)
+
+Wang, T., Wu, Z., Liu, J., Hao, J., Wang, J., and Shao, K.
+
+
+Distrl: An asynchronous distributed reinforcement learning framework
+for on-device control agents.
+
+
+arXiv preprint arXiv:2410.14803, 2024c.
+
+
+
+
+Wang & Liu (2024)
+
+Wang, X. and Liu, B.
+
+
+Oscar: Operating system control via state-aware reasoning and
+re-planning.
+
+
+arXiv preprint arXiv:2410.18963, 2024.
+
+
+
+
+Wang et al. (2024d)
+
+Wang, Y., Zhang, H., Tian, J., and Tang, Y.
+
+
+Ponder & press: Advancing visual gui agent towards general computer
+control.
+
+
+arXiv preprint arXiv:2412.01268, 2024d.
+
+
+
+
+Wen et al. (2023)
+
+Wen, H., Li, Y., Liu, G., Zhao, S., Yu, T., Li, T. J.-J., Jiang, S., Liu, Y.,
+Zhang, Y., and Liu, Y.
+
+
+Autodroid: Llm-powered task automation in android.
+
+
+In Proceedings of the 30th Annual International Conference on
+Mobile Computing and Networking, pp.  543–557, 2023.
+
+
+
+
+Willams (1992)
+
+Willams, R. J.
+
+
+Simple statistical gradient-following algorithms for connectionist
+reinforcement learning.
+
+
+Machine learning, 8:229–256, 1992.
+
+
+
+
+Yang et al. (2023)
+
+Yang, Z., Liu, J., Han, Y., Chen, X., Huang, Z., Fu, B., and Yu, G.
+
+
+Appagent: Multimodal agents as smartphone users.
+
+
+arXiv preprint arXiv:2312.13771, 2023.
+
+
+
+
+Zheng et al. (2024)
+
+Zheng, B., Gou, B., Kil, J., Sun, H., and Su, Y.
+
+
+Gpt-4v (ision) is a generalist web agent, if grounded.
+
+
+arXiv preprint arXiv:2401.01614, 2024."
+"Conditioning and AGM-like belief change
+in the Desirability-Indifference framework","Abstract
+We show how the AGM framework for belief change (expansion, revision, contraction) can be extended to deal with conditioning in the so-called Desirability-Indifference framework, based on abstract notions of accepting and rejecting options, as well as on abstract notions of events.
+This level of abstraction allows us to deal simultaneously with classical and quantum probability theory.",Bibliografia não encontrada
+The Value of Information in Human-AI Decision-making,"Abstract
+Humans and AIs are often paired on decision tasks with the expectation of achieving complementary performance, where the combination of human and AI outperforms either one alone.
+However, how to improve performance of a human-AI team is often not clear without knowing more about what particular information and strategies each agent employs.
+We provide a decision-theoretic framework for characterizing the value of information—and consequently, opportunities for agents to better exploit available information–in AI-assisted decision workflow.
+We demonstrate the use of the framework for model selection, empirical evaluation of human-AI performance, and explanation design.
+We propose a novel information-based instance-level explanation technique that adapts a conventional saliency-based explanation to explain information value in decision making.","References
+
+
+Ægisdóttir et al. [2006]
+
+Stefanía Ægisdóttir, Michael J White, Paul M Spengler, Alan S Maugherman, Linda A Anderson, Robert S Cook, Cassandra N Nichols, Georgios K Lampropoulos, Blain S Walker, Genna Cohen, et al.
+
+
+The meta-analysis of clinical judgment project: Fifty-six years of accumulated research on clinical versus statistical prediction.
+
+
+The Counseling Psychologist, 34(3):341–382, 2006.
+
+
+
+
+Agrawal et al. [2020]
+
+Mayank Agrawal, Joshua C Peterson, and Thomas L Griffiths.
+
+
+Scaling up psychology via scientific regret minimization.
+
+
+Proceedings of the National Academy of Sciences, 117(16):8825–8835, 2020.
+
+
+
+
+Alexey [2020]
+
+Dosovitskiy Alexey.
+
+
+An image is worth 16x16 words: Transformers for image recognition at scale.
+
+
+arXiv preprint arXiv: 2010.11929, 2020.
+
+
+
+
+Alur et al. [2023]
+
+Rohan Alur, Loren Laine, Darrick Li, Manish Raghavan, Devavrat Shah, and Dennis Shung.
+
+
+Auditing for human expertise.
+
+
+Advances in Neural Information Processing Systems, 36:79439–79468, 2023.
+
+
+
+
+Alur et al. [2024a]
+
+Rohan Alur, Loren Laine, Darrick Li, Manish Raghavan, Devavrat Shah, and Dennis Shung.
+
+
+Auditing for human expertise.
+
+
+Advances in Neural Information Processing Systems, 36, 2024a.
+
+
+
+
+Alur et al. [2024b]
+
+Rohan Alur, Manish Raghavan, and Devavrat Shah.
+
+
+Distinguishing the indistinguishable: Human expertise in algorithmic prediction.
+
+
+arXiv preprint arXiv:2402.00793, 2024b.
+
+
+
+
+Angwin et al. [2022]
+
+Julia Angwin, Jeff Larson, Surya Mattu, and Lauren Kirchner.
+
+
+Machine bias.
+
+
+In Ethics of data and analytics, pages 254–264. Auerbach Publications, 2022.
+
+
+
+
+Bansal et al. [2019]
+
+Gagan Bansal, Besmira Nushi, Ece Kamar, Daniel S Weld, Walter S Lasecki, and Eric Horvitz.
+
+
+Updates in human-ai teams: Understanding and addressing the performance/compatibility tradeoff.
+
+
+In Proceedings of the AAAI Conference on Artificial Intelligence, volume 33, pages 2429–2437, 2019.
+
+
+
+
+Bansal et al. [2021a]
+
+Gagan Bansal, Besmira Nushi, Ece Kamar, Eric Horvitz, and Daniel S Weld.
+
+
+Is the most accurate ai the best teammate? optimizing ai for teamwork.
+
+
+In Proceedings of the AAAI Conference on Artificial Intelligence, volume 35, pages 11405–11414, 2021a.
+
+
+
+
+Bansal et al. [2021b]
+
+Gagan Bansal, Tongshuang Wu, Joyce Zhou, Raymond Fok, Besmira Nushi, Ece Kamar, Marco Tulio Ribeiro, and Daniel Weld.
+
+
+Does the whole exceed its parts? the effect of ai explanations on complementary team performance.
+
+
+In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems, CHI ’21, New York, NY, USA, 2021b. Association for Computing Machinery.
+
+
+ISBN 9781450380966.
+
+
+doi: 10.1145/3411764.3445717.
+
+
+URL https://doi.org/10.1145/3411764.3445717.
+
+
+
+
+Bastani et al. [2021]
+
+Hamsa Bastani, Osbert Bastani, and Wichinpong Park Sinchaisri.
+
+
+Improving human decision-making with machine learning.
+
+
+arXiv preprint arXiv:2108.08454, 5, 2021.
+
+
+
+
+Ben-Michael et al. [2024]
+
+Eli Ben-Michael, D James Greiner, Melody Huang, Kosuke Imai, Zhichao Jiang, and Sooahn Shin.
+
+
+Does ai help humans make better decisions? a statistical evaluation framework for experimental and observational studies.
+
+
+arXiv, 2403:v3, 2024.
+
+
+
+
+Blackwell et al. [1951]
+
+David Blackwell et al.
+
+
+Comparison of experiments.
+
+
+In Proceedings of the second Berkeley symposium on mathematical statistics and probability, volume 1, page 26, 1951.
+
+
+
+
+Bo et al. [2021]
+
+Zi-Hao Bo, Hui Qiao, Chong Tian, Yuchen Guo, Wuchao Li, Tiantian Liang, Dongxue Li, Dan Liao, Xianchun Zeng, Leilei Mei, et al.
+
+
+Toward human intervention-free clinical diagnosis of intracranial aneurysm via deep neural network.
+
+
+Patterns, 2(2), 2021.
+
+
+
+
+Bondi et al. [2022]
+
+Elizabeth Bondi, Raphael Koster, Hannah Sheahan, Martin Chadwick, Yoram Bachrach, Taylan Cemgil, Ulrich Paquet, and Krishnamurthy Dvijotham.
+
+
+Role of human-ai interaction in selective prediction.
+
+
+In Proceedings of the AAAI Conference on Artificial Intelligence, volume 36, pages 5286–5294, 2022.
+
+
+
+
+Boskemper et al. [2022]
+
+Melanie M Boskemper, Megan L Bartlett, and Jason S McCarley.
+
+
+Measuring the efficiency of automation-aided performance in a simulated baggage screening task.
+
+
+Human factors, 64(6):945–961, 2022.
+
+
+
+
+Buçinca et al. [2020]
+
+Zana Buçinca, Phoebe Lin, Krzysztof Z. Gajos, and Elena L. Glassman.
+
+
+Proxy tasks and subjective measures can be misleading in evaluating explainable ai systems.
+
+
+In Proceedings of the 25th International Conference on Intelligent User Interfaces, IUI ’20, page 454–464, New York, NY, USA, 2020. Association for Computing Machinery.
+
+
+ISBN 9781450371186.
+
+
+doi: 10.1145/3377325.3377498.
+
+
+URL https://doi.org/10.1145/3377325.3377498.
+
+
+
+
+Bussone et al. [2015]
+
+Adrian Bussone, Simone Stumpf, and Dympna O’Sullivan.
+
+
+The role of explanations on trust and reliance in clinical decision support systems.
+
+
+In 2015 International Conference on Healthcare Informatics, pages 160–169, Oct 2015.
+
+
+doi: 10.1109/ICHI.2015.26.
+
+
+
+
+Chen and Guestrin [2016]
+
+Tianqi Chen and Carlos Guestrin.
+
+
+Xgboost: A scalable tree boosting system.
+
+
+In Proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining, pages 785–794, 2016.
+
+
+
+
+Chen and Waggoner [2016]
+
+Yiling Chen and Bo Waggoner.
+
+
+Informational substitutes.
+
+
+In 2016 IEEE 57th Annual Symposium on Foundations of Computer Science (FOCS), pages 239–247. IEEE, 2016.
+
+
+
+
+Corvelo Benz and Rodriguez [2023]
+
+Nina Corvelo Benz and Manuel Rodriguez.
+
+
+Human-aligned calibration for ai-assisted decision making.
+
+
+Advances in Neural Information Processing Systems, 36:14609–14636, 2023.
+
+
+
+
+Dolhansky et al. [2020]
+
+Brian Dolhansky, Joanna Bitton, Ben Pflaum, Jikuo Lu, Russ Howes, Menglin Wang, and Cristian Canton Ferrer.
+
+
+The deepfake detection challenge (dfdc) dataset.
+
+
+arXiv preprint arXiv:2006.07397, 2020.
+
+
+
+
+Dressel and Farid [2018]
+
+Julia Dressel and Hany Farid.
+
+
+The accuracy, fairness, and limits of predicting recidivism.
+
+
+Science advances, 4(1):eaao5580, 2018.
+
+
+
+
+Fudenberg et al. [2022]
+
+Drew Fudenberg, Jon Kleinberg, Annie Liang, and Sendhil Mullainathan.
+
+
+Measuring the completeness of economic models.
+
+
+Journal of Political Economy, 130(4):956–990, 2022.
+
+
+
+
+Goldberger et al. [2000]
+
+Ary L Goldberger, Luis AN Amaral, Leon Glass, Jeffrey M Hausdorff, Plamen Ch Ivanov, Roger G Mark, Joseph E Mietus, George B Moody, Chung-Kang Peng, and H Eugene Stanley.
+
+
+Physiobank, physiotoolkit, and physionet: components of a new research resource for complex physiologic signals.
+
+
+circulation, 101(23):e215–e220, 2000.
+
+
+
+
+Green and Chen [2019]
+
+Ben Green and Yiling Chen.
+
+
+The principles and limits of algorithm-in-the-loop decision making.
+
+
+Proceedings of the ACM on Human-Computer Interaction, 3(CSCW):1–24, 2019.
+
+
+
+
+Groh et al. [2022]
+
+Matthew Groh, Ziv Epstein, Chaz Firestone, and Rosalind Picard.
+
+
+Deepfake detection by human crowds, machines, and machine-informed crowds.
+
+
+Proceedings of the National Academy of Sciences, 119(1):e2110013119, 2022.
+
+
+
+
+Grove et al. [2000]
+
+William M Grove, David H Zald, Boyd S Lebow, Beth E Snitz, and Chad Nelson.
+
+
+Clinical versus mechanical prediction: A meta-analysis.
+
+
+Psychological Assessment, 12(1):19, 2000.
+
+
+
+
+Guo et al. [2024]
+
+Ziyang Guo, Yifan Wu, Jason D Hartline, and Jessica Hullman.
+
+
+A decision theoretic framework for measuring ai reliance.
+
+
+In The 2024 ACM Conference on Fairness, Accountability, and Transparency, pages 221–236, 2024.
+
+
+
+
+He et al. [2016]
+
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+
+
+Deep residual learning for image recognition.
+
+
+In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770–778, 2016.
+
+
+
+
+Heidenreich et al. [2022]
+
+Paul A Heidenreich, Biykem Bozkurt, David Aguilar, Larry A Allen, Joni J Byun, Monica M Colvin, Anita Deswal, Mark H Drazner, Shannon M Dunlay, Linda R Evers, et al.
+
+
+2022 aha/acc/hfsa guideline for the management of heart failure: a report of the american college of cardiology/american heart association joint committee on clinical practice guidelines.
+
+
+Journal of the American College of Cardiology, 79(17):e263–e421, 2022.
+
+
+
+
+Hofman et al. [2021]
+
+Jake M Hofman, Duncan J Watts, Susan Athey, Filiz Garip, Thomas L Griffiths, Jon Kleinberg, Helen Margetts, Sendhil Mullainathan, Matthew J Salganik, Simine Vazire, et al.
+
+
+Integrating explanation and prediction in computational social science.
+
+
+Nature, 595(7866):181–188, 2021.
+
+
+
+
+Hu and Wu [2024]
+
+Lunjia Hu and Yifan Wu.
+
+
+Predict to minimize swap regret for all payoff-bounded tasks.
+
+
+arXiv preprint arXiv:2404.13503, 2024.
+
+
+
+
+Huang et al. [2017]
+
+Gao Huang, Zhuang Liu, Laurens Van Der Maaten, and Kilian Q Weinberger.
+
+
+Densely connected convolutional networks.
+
+
+In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 4700–4708, 2017.
+
+
+
+
+Irvin et al. [2019]
+
+Jeremy Irvin, Pranav Rajpurkar, Michael Ko, Yifan Yu, Silviana Ciurea-Ilcus, Chris Chute, Henrik Marklund, Behzad Haghgoo, Robyn Ball, Katie Shpanskaya, et al.
+
+
+Chexpert: A large chest radiograph dataset with uncertainty labels and expert comparison.
+
+
+In Proceedings of the AAAI conference on artificial intelligence, volume 33, pages 590–597, 2019.
+
+
+
+
+Jacobs et al. [2021]
+
+Maia Jacobs, Melanie F Pradier, Thomas H McCoy Jr, Roy H Perlis, Finale Doshi-Velez, and Krzysztof Z Gajos.
+
+
+How machine-learning recommendations influence clinician treatment selections: the example of antidepressant selection.
+
+
+Translational psychiatry, 11(1):108, 2021.
+
+
+
+
+Johnson et al. [2019]
+
+Alistair EW Johnson, Tom J Pollard, Seth J Berkowitz, Nathaniel R Greenbaum, Matthew P Lungren, Chih-ying Deng, Roger G Mark, and Steven Horng.
+
+
+Mimic-cxr, a de-identified publicly available database of chest radiographs with free-text reports.
+
+
+Scientific data, 6(1):317, 2019.
+
+
+
+
+Johnson et al. [2023]
+
+Alistair EW Johnson, Lucas Bulgarelli, Lu Shen, Alvin Gayles, Ayad Shammout, Steven Horng, Tom J Pollard, Sicheng Hao, Benjamin Moody, Brian Gow, et al.
+
+
+Mimic-iv, a freely accessible electronic health record dataset.
+
+
+Scientific data, 10(1):1, 2023.
+
+
+
+
+Keswani et al. [2021]
+
+Vijay Keswani, Matthew Lease, and Krishnaram Kenthapadi.
+
+
+Towards unbiased and accurate deferral to multiple experts.
+
+
+In Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society, pages 154–165, 2021.
+
+
+
+
+Keswani et al. [2022]
+
+Vijay Keswani, Matthew Lease, and Krishnaram Kenthapadi.
+
+
+Designing closed human-in-the-loop deferral pipelines.
+
+
+arXiv preprint arXiv:2202.04718, 2022.
+
+
+
+
+Kleinberg et al. [2023]
+
+Bobby Kleinberg, Renato Paes Leme, Jon Schneider, and Yifeng Teng.
+
+
+U-calibration: Forecasting for an unknown agent.
+
+
+In The Thirty Sixth Annual Conference on Learning Theory, pages 5143–5145. PMLR, 2023.
+
+
+
+
+Kleinberg et al. [2015]
+
+Jon Kleinberg, Jens Ludwig, Sendhil Mullainathan, and Ziad Obermeyer.
+
+
+Prediction policy problems.
+
+
+American Economic Review, 105(5):491–495, 2015.
+
+
+
+
+Kleinberg et al. [2018]
+
+Jon Kleinberg, Himabindu Lakkaraju, Jure Leskovec, Jens Ludwig, and Sendhil Mullainathan.
+
+
+Human decisions and machine predictions.
+
+
+The quarterly journal of economics, 133(1):237–293, 2018.
+
+
+
+
+Kononenko [2001]
+
+Igor Kononenko.
+
+
+Machine learning for medical diagnosis: history, state of the art and perspective.
+
+
+Artificial Intelligence in medicine, 23(1):89–109, 2001.
+
+
+
+
+Lai and Tan [2019]
+
+Vivian Lai and Chenhao Tan.
+
+
+On human predictions with explanations and predictions of machine learning models: A case study on deception detection.
+
+
+In Proceedings of the conference on fairness, accountability, and transparency, pages 29–38, 2019.
+
+
+
+
+Lakkaraju et al. [2017]
+
+Himabindu Lakkaraju, Jon Kleinberg, Jure Leskovec, Jens Ludwig, and Sendhil Mullainathan.
+
+
+The selective labels problem: Evaluating algorithmic predictions in the presence of unobservables.
+
+
+In Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pages 275–284, 2017.
+
+
+
+
+Li et al. [2022]
+
+Yingkai Li, Jason D Hartline, Liren Shan, and Yifan Wu.
+
+
+Optimization of scoring rules.
+
+
+In Proceedings of the 23rd ACM Conference on Economics and Computation, pages 988–989, 2022.
+
+
+
+
+Lin et al. [2020]
+
+Zhiyuan “Jerry” Lin, Jongbin Jung, Sharad Goel, and Jennifer Skeem.
+
+
+The limits of human predictions of recidivism.
+
+
+Science advances, 6(7):eaaz0652, 2020.
+
+
+
+
+Liu et al. [2021]
+
+Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo.
+
+
+Swin transformer: Hierarchical vision transformer using shifted windows.
+
+
+In Proceedings of the IEEE/CVF international conference on computer vision, pages 10012–10022, 2021.
+
+
+
+
+Lundberg and Lee [2017]
+
+Scott M Lundberg and Su-In Lee.
+
+
+A unified approach to interpreting model predictions.
+
+
+In I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett, editors, Advances in Neural Information Processing Systems 30, pages 4765–4774. Curran Associates, Inc., 2017.
+
+
+
+
+Madras et al. [2018]
+
+David Madras, Toni Pitassi, and Richard Zemel.
+
+
+Predict responsibly: improving fairness and accuracy by learning to defer.
+
+
+Advances in neural information processing systems, 31, 2018.
+
+
+
+
+Mclaughlin and Spiess [2023]
+
+Bryce Mclaughlin and Jann Spiess.
+
+
+Algorithmic assistance with recommendation-dependent preferences.
+
+
+In Proceedings of the 24th ACM Conference on Economics and Computation, EC ’23, page 991, New York, NY, USA, 2023. Association for Computing Machinery.
+
+
+ISBN 9798400701047.
+
+
+doi: 10.1145/3580507.3597775.
+
+
+URL https://doi.org/10.1145/3580507.3597775.
+
+
+
+
+Meehl [1954]
+
+Paul E Meehl.
+
+
+Clinical Versus Statistical Prediction: A Theoretical Analysis and a Review of the Evidence.
+
+
+University of Minnesota Press, 1954.
+
+
+
+
+Mozannar et al. [2024a]
+
+Hussein Mozannar, Gagan Bansal, Adam Fourney, and Eric Horvitz.
+
+
+When to show a suggestion? integrating human feedback in ai-assisted programming.
+
+
+In Proceedings of the AAAI Conference on Artificial Intelligence, volume 38, pages 10137–10144, 2024a.
+
+
+
+
+Mozannar et al. [2024b]
+
+Hussein Mozannar, Jimin Lee, Dennis Wei, Prasanna Sattigeri, Subhro Das, and David Sontag.
+
+
+Effective human-ai teams via learned natural language rules and onboarding.
+
+
+Advances in Neural Information Processing Systems, 36, 2024b.
+
+
+
+
+Mueller et al. [2019]
+
+Christian Mueller, Kenneth McDonald, Rudolf A de Boer, Alan Maisel, John GF Cleland, Nikola Kozhuharov, Andrew JS Coats, Marco Metra, Alexandre Mebazaa, Frank Ruschitzka, et al.
+
+
+Heart failure association of the european society of cardiology practical guidance on the use of natriuretic peptide concentrations.
+
+
+European journal of heart failure, 21(6):715–731, 2019.
+
+
+
+
+Mullainathan and Obermeyer [2022]
+
+Sendhil Mullainathan and Ziad Obermeyer.
+
+
+Diagnosing physician error: A machine learning approach to low-value health care.
+
+
+The Quarterly Journal of Economics, 137(2):679–727, 2022.
+
+
+
+
+Okati et al. [2021]
+
+Nastaran Okati, Abir De, and Manuel Rodriguez.
+
+
+Differentiable learning under triage.
+
+
+Advances in Neural Information Processing Systems, 34:9140–9151, 2021.
+
+
+
+
+Perdomo et al. [2020]
+
+Juan Perdomo, Tijana Zrnic, Celestine Mendler-Dünner, and Moritz Hardt.
+
+
+Performative prediction.
+
+
+In International Conference on Machine Learning, pages 7599–7609. PMLR, 2020.
+
+
+
+
+Raghu et al. [2019]
+
+Maithra Raghu, Katy Blumer, Greg Corrado, Jon Kleinberg, Ziad Obermeyer, and Sendhil Mullainathan.
+
+
+The algorithmic automation problem: Prediction, triage, and human effort.
+
+
+arXiv preprint arXiv:1903.12220, 2019.
+
+
+
+
+Rajpurkar et al. [2018]
+
+Pranav Rajpurkar, Jeremy Irvin, Robyn L Ball, Kaylie Zhu, Brandon Yang, Hershel Mehta, Tony Duan, Daisy Ding, Aarti Bagul, Curtis P Langlotz, et al.
+
+
+Deep learning for chest radiograph diagnosis: A retrospective comparison of the chexnext algorithm to practicing radiologists.
+
+
+PLoS medicine, 15(11):e1002686, 2018.
+
+
+
+
+Rambachan [2024]
+
+Ashesh Rambachan.
+
+
+Identifying prediction mistakes in observational data.
+
+
+The Quarterly Journal of Economics, page qjae013, 2024.
+
+
+
+
+Rastogi et al. [2023]
+
+Charvi Rastogi, Liu Leqi, Kenneth Holstein, and Hoda Heidari.
+
+
+A taxonomy of human and ml strengths in decision-making to investigate human-ml complementarity.
+
+
+In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing, volume 11, pages 127–139, 2023.
+
+
+
+
+Schemmer et al. [2022]
+
+Max Schemmer, Patrick Hemmer, Maximilian Nitsche, Niklas Kühl, and Michael Vössing.
+
+
+A meta-analysis of the utility of explainable artificial intelligence in human-ai decision-making.
+
+
+In Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society, pages 617–626, 2022.
+
+
+
+
+Shapley [1953]
+
+Lloyd S Shapley.
+
+
+A value for n-person games.
+
+
+Contributions to the Theory of Games, 2, 1953.
+
+
+
+
+Shreekumar [2025]
+
+Advik Shreekumar.
+
+
+X-raying experts: Decomposing predictable mistakes in radiology.
+
+
+2025.
+
+
+
+
+Szegedy et al. [2016]
+
+Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jon Shlens, and Zbigniew Wojna.
+
+
+Rethinking the inception architecture for computer vision.
+
+
+In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 2818–2826, 2016.
+
+
+
+
+Tang et al. [2020]
+
+Yu-Xing Tang, You-Bao Tang, Yifan Peng, Ke Yan, Mohammadhadi Bagheri, Bernadette A Redd, Catherine J Brandon, Zhiyong Lu, Mei Han, Jing Xiao, et al.
+
+
+Automated abnormality classification of chest radiographs using deep convolutional neural networks.
+
+
+NPJ digital medicine, 3(1):70, 2020.
+
+
+
+
+Vaccaro and Waldo [2019]
+
+Michelle Vaccaro and Jim Waldo.
+
+
+The effects of mixing machine learning and human judgment.
+
+
+Communications of the ACM, 62(11):104–110, 2019.
+
+
+
+
+Vaccaro et al. [2024]
+
+Michelle Vaccaro, Abdullah Almaatouq, and Thomas Malone.
+
+
+When combinations of humans and ai are useful: A systematic review and meta-analysis.
+
+
+Nature Human Behaviour, pages 1–11, 2024.
+
+
+
+
+Wilder et al. [2021]
+
+Bryan Wilder, Eric Horvitz, and Ece Kamar.
+
+
+Learning to complement humans.
+
+
+In Proceedings of the Twenty-Ninth International Conference on International Joint Conferences on Artificial Intelligence, pages 1526–1533, 2021.
+
+
+
+
+Wu et al. [2023]
+
+Yifan Wu, Ziyang Guo, Michalis Mamakos, Jason Hartline, and Jessica Hullman.
+
+
+The rational agent benchmark for data visualization.
+
+
+IEEE transactions on visualization and computer graphics, 2023."
