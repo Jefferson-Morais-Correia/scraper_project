@@ -1,8 +1,9 @@
-from scraper_project.scrapers.arxiv_id_scraper import ArxivIdScraper
-from scraper_project.scrapers.scraper_factory import ScraperFactory
-from scraper_project.utils.helpers import save_to_csv
+from scrapers.arxiv_id_scraper import ArxivIdScraper
+from scrapers.scraper_factory import ScraperFactory
+from utils.helpers import save_to_csv
 import pandas as pd
-from scraper_project.utils.logging_config import setup_logger
+from utils.logging_config import setup_logger
+
 
 logger = setup_logger("arxiv_scraper")
 
