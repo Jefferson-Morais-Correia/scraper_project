@@ -6,6 +6,11 @@
 
 Este projeto é um scraper que coleta informações do site [arXiv](https://arxiv.org/), incluindo IDs de artigos, títulos, resumos e referências bibliográficas. Ele foi desenvolvido em Python e utiliza bibliotecas como `requests`, `beautifulsoup4` e `pandas` para manipulação de dados e coleta de informações.
 
+## Desenvolvedores
+
+- André Carpinteiro do Amaral
+- Jefferson de Morais Correia
+
 ---
 
 ## Estrutura do Projeto
