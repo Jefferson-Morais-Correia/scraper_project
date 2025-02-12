@@ -12,7 +12,7 @@ def main():
 
     # Passo 1: Obter os IDs dos artigos
     id_scraper = ArxivIdScraper()
-    ids = id_scraper.get_ids(skip=0, show=200)  # Pegue os IDs da página inicial
+    ids = id_scraper.scrape(skip=0, show=200)  # Pegue os IDs da página inicial
     logger.info(f"{len(ids)} IDs encontrados.")
 
     # Passo 2: Obter os detalhes de cada artigo
@@ -21,7 +21,7 @@ def main():
         logger.info(f"Processando artigo com ID: {paper_id}")
         scraper = ScraperFactory.create_scraper(paper_id)
         try:
-            details = scraper.get_details()
+            details = scraper.scrape()
             titles.append(details["Title"])
             abstracts.append(details["Abstract"])
             references.append(details["References"])
