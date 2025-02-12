@@ -6,10 +6,10 @@ def test_factory_creates_scraper():
     """
     Testa se a Factory cria instâncias de ArxivDetailScraper corretamente.
     """
-    scraper = ScraperFactory.create_scraper("2301.00001")
+    scraper = ScraperFactory.create_scraper("2502.03369")
     assert isinstance(scraper, ArxivDetailScraper), (
         "A Factory deve criar uma instância de ArxivDetailScraper."
     )
-    assert scraper.paper_id == "2301.00001", (
+    assert scraper.paper_id == "2502.03369", (
         "O ID do artigo deve ser configurado corretamente."
     )
