@@ -5,7 +5,7 @@ from requests import Session
 class BaseScraper(ABC):
     _instance = None
 
-    def __new__(cls, *args, **kwargs):
+    def __new__(cls, id="", *args, **kwargs):
         if not cls._instance:
             cls._instance = super().__new__(cls, *args, **kwargs)
         return cls._instance
